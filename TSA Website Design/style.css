@@ -43,6 +43,22 @@ section {
   margin: 8px;
 }
 
+.train {
+  height: 75%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mittens {
+  height: 75%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .page-header {
   text-align: center;
   color: slategrey;

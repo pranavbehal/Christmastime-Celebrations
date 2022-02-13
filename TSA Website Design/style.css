@@ -6,30 +6,7 @@
 body{
     background-color: #f2f2f2;
     margin:0px;
-    padding-bottom:2%;
-}
-
-.page-header{
-    text-align:center;
-    color:slategrey;
-    margin:100px;
-    font-size:45px;
-    font-family:Lovelo;
-}
-
-.small-header{
-    text-align:center;
-    color:slategrey;
-    margin:75px auto;
-    width:500px
-}
-
-#home-header{
-    text-align:center;
-    color:white;
-    margin:100px;
-    font-size:45px;
-    font-family:Lovelo;
+    padding:0px;
 }
 
 p{
@@ -65,13 +42,38 @@ img {
 }
 
 section {
+    margin:8px;
+}
+
+.page-header{
+    text-align:center;
+    color:slategrey;
     margin:50px;
+    padding-top:48px;
+    font-size:45px;
+    font-family:Lovelo;
+}
+
+.small-header{
+    text-align:center;
+    color:slategrey;
+    margin:75px auto;
+    width:500px
+}
+
+#home-header{
+    text-align:center;
+    color:white;
+    margin:75px;
+    padding-top:48px;
+    padding-bottom:100px;
+    font-size:45px;
+    font-family:Lovelo;
 }
 
 .text-div{
     text-align:left;
-    padding-left:20px;
-    padding-right:20px
+    padding:0px 45px;
 }
 
 #home-div{
@@ -122,6 +124,11 @@ section {
     justify-content:center;
 }
 
+.event-description{
+    text-align:left;
+    margin-left:2%;
+}
+
 #zoom-div{
     background-color:forestgreen;
     text-align:center;
@@ -138,6 +145,9 @@ section {
 
 .table{ 
     display: table; 
+    padding:0px;
+    border-collapse:collapse;
+    margin-top:16px;
 }
 
 .tr{ 
@@ -148,4 +158,8 @@ section {
     display: table-cell; 
     width:50%;
     vertical-align: top;
+}
+
+.td-img {
+    line-height: 0px;
 }

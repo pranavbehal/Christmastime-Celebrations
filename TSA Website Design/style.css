@@ -19,8 +19,6 @@ ul {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: forestgreen;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -28,12 +26,12 @@ li {
 }
 
 li a {
-  color: whitesmoke;
+  color: white;
+  font-family: Lovelo;
   text-align: center;
   display: block;
   width: 70px;
   padding: 14px 16px;
-  background-color: forestgreen;
   text-decoration: none;
 }
 
@@ -80,6 +78,7 @@ section {
   background-color: rgba(0, 0, 0, 0.2);
   background-image: url(Christmas-Wallpaper-4K.jpg);
   background-repeat: no-repeat;
+  margin-top: 0%;
   background-blend-mode: multiply;
   background-size: 110%;
 }
@@ -93,7 +92,7 @@ section {
 }
 
 .active {
-  background-color: crimson;
+  background-color: lightblue;
 }
 
 .fixed-nav {

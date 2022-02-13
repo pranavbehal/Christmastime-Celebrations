@@ -1,165 +1,165 @@
-@font-face{
-    font-family:Lovelo;
-    src:url(Lovelo\ Black.otf)
+@font-face {
+  font-family: Lovelo;
+  src: url(Lovelo\ Black.otf);
 }
 
-body{
-    background-color: #f2f2f2;
-    margin:0px;
-    padding:0px;
+body {
+  background-color: #f2f2f2;
+  margin: 0px;
+  padding: 0px;
 }
 
-p{
-    color:slategrey;
-    font-size:20px;
+p {
+  color: slategrey;
+  font-size: 20px;
 }
 
-ul{
-    list-style-type: none;
-    margin:0px;
-    padding:0px;
-    overflow:hidden;
-    background-color:forestgreen;
-    box-shadow:3px 3px 5px rgba(0,0,0,0.5);
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: forestgreen;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-li{
-    float:left;
+li {
+  float: left;
 }
 
-li a{
-    color:whitesmoke;
-    text-align:center;
-    display:block;
-    width:70px;
-    padding: 14px 16px;
-    background-color:forestgreen;
-    text-decoration:none;
+li a {
+  color: whitesmoke;
+  text-align: center;
+  display: block;
+  width: 70px;
+  padding: 14px 16px;
+  background-color: forestgreen;
+  text-decoration: none;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 section {
-    margin:8px;
+  margin: 8px;
 }
 
-.page-header{
-    text-align:center;
-    color:slategrey;
-    margin:50px;
-    padding-top:48px;
-    font-size:45px;
-    font-family:Lovelo;
+.page-header {
+  text-align: center;
+  color: slategrey;
+  margin: 50px;
+  padding-top: 48px;
+  font-size: 45px;
+  font-family: Lovelo;
 }
 
-.small-header{
-    text-align:center;
-    color:slategrey;
-    margin:75px auto;
-    width:500px
+.small-header {
+  text-align: center;
+  color: slategrey;
+  margin: 75px auto;
+  width: 500px;
 }
 
-#home-header{
-    text-align:center;
-    color:white;
-    margin:75px;
-    padding-top:48px;
-    padding-bottom:100px;
-    font-size:45px;
-    font-family:Lovelo;
+#home-header {
+  text-align: center;
+  color: white;
+  margin: 75px;
+  padding-top: 48px;
+  padding-bottom: 100px;
+  font-size: 45px;
+  font-family: Lovelo;
 }
 
-.text-div{
-    text-align:left;
-    padding:0px 45px;
+.text-div {
+  text-align: left;
+  padding: 0px 45px;
 }
 
-#home-div{
-    background-color:rgba(0, 0, 0, 0.2);
-    background-image: url(Christmas-Wallpaper-4K.jpg);
-    background-repeat: no-repeat;
-    background-blend-mode:multiply;
-    background-size:cover;
+#home-div {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url(Christmas-Wallpaper-4K.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: 110%;
 }
 
-#home-img{
-    height:75%;
+#home-img {
+  height: 75%;
 }
 
-#golden{
-    color:rgb(236, 213, 82);
+#golden {
+  color: rgb(236, 213, 82);
 }
 
-.active{
-    background-color:crimson;
+.active {
+  background-color: crimson;
 }
 
-.fixed-nav{
-    position:fixed;
-    left:0px;
-    top:0px;
-    width:100%;
+.fixed-nav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
 }
 
-.event-div{
-    height:250px;
-    width:250px;
-    background-color:white;
-    border-radius:10%;
-    margin:20px;
-    box-shadow: 3px 3px 10px grey;
-    text-align:center;
-    padding:5px
+.event-div {
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10%;
+  margin: 20px;
+  box-shadow: 3px 3px 10px grey;
+  text-align: center;
+  padding: 5px;
 }
 
-.event-heading{
-    font-size:x-large;
-    text-decoration: underline crimson;
+.event-heading {
+  font-size: x-large;
+  text-decoration: underline crimson;
 }
 
-#event-container{
-    display:flex;
-    justify-content:center;
+#event-container {
+  display: flex;
+  justify-content: center;
 }
 
-.event-description{
-    text-align:left;
-    margin-left:2%;
+.event-description {
+  text-align: left;
+  margin-left: 2%;
 }
 
-#zoom-div{
-    background-color:forestgreen;
-    text-align:center;
-    margin:0px 15%;
+#zoom-div {
+  background-color: forestgreen;
+  text-align: center;
+  margin: 0px 15%;
 }
 
-#zoom-div > p{
-    color:white;
+#zoom-div > p {
+  color: white;
 }
 
-#zoom-link{
-    color:lightblue;
+#zoom-link {
+  color: lightblue;
 }
 
-.table{ 
-    display: table; 
-    padding:0px;
-    border-collapse:collapse;
-    margin-top:16px;
+.table {
+  display: table;
+  padding: 0px;
+  border-collapse: collapse;
+  margin-top: 16px;
 }
 
-.tr{ 
-    display: table-row; 
+.tr {
+  display: table-row;
 }
 
-.td{ 
-    display: table-cell; 
-    width:50%;
-    vertical-align: top;
+.td {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
 }
 
 .td-img {
-    line-height: 0px;
+  line-height: 0px;
 }

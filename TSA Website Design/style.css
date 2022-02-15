@@ -24,26 +24,6 @@ h2 {
   font-family: Lovelo;
 }
 
-h3 {
-  text-align: center;
-  font-family: Lovelo;
-}
-
-h4 {
-  text-align: center;
-  font-family: Lovelo;
-}
-
-h5 {
-  text-align: center;
-  font-family: Lovelo;
-}
-
-h6 {
-  text-align: center;
-  font-family: Lovelo;
-}
-
 ul {
   list-style-type: none;
   margin: 0px;
@@ -73,15 +53,7 @@ section {
   margin: 8px;
 }
 
-.train {
-  height: 75%;
-  width: 75%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mittens {
+.home-image {
   height: 75%;
   width: 75%;
   display: block;

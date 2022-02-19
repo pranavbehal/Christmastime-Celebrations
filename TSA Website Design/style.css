@@ -13,6 +13,12 @@ p {
   color: #213d64;
   font-size: 20px;
 }
+
+h1 {
+  font-family: Lovelo;
+  text-align: center;
+}
+
 h2 {
   font-family: Lovelo;
   text-align: center;
@@ -190,4 +196,10 @@ section {
   margin-top: -15px;
   width: 90px;
   margin-left: -20px;
+}
+
+.form-link {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 1000px;
 }

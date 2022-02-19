@@ -199,7 +199,25 @@ section {
 }
 
 .form-link {
-  margin-top: 50px;
-  margin-bottom: 50px;
   height: 1000px;
+  background-image: url(353393-winter-image-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -30px;
+  margin-bottom: -30px;
+}
+
+.form-h1 {
+  font-size: 70px;
+  padding-top: 200px;
+  color: white;
+}
+
+.form-p {
+  font-size: 30px;
+  text-align: center;
+  color: white;
 }

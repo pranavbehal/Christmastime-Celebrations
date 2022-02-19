@@ -217,4 +217,7 @@ section {
   color:white;
   border:none;
   font-family:Lovelo;
+  padding:16px;
+  margin:14px;
+  border-radius:5px;
 }

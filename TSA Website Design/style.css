@@ -187,9 +187,8 @@ section {
   transform: scaleX(-1);
 }
 
-.infohtext {
-  padding-top: 200px;
-  padding-bottom: 10px;
+.info-text-heading {
+  margin-bottom:10px;
 }
 
 .logo-nav-image {

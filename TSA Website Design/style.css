@@ -180,7 +180,6 @@ section {
   border-radius: 75px;
   width: 95%;
   padding: 2%;
-  border:5px solid rgba(255, 65, 44, 0.6);
 }
 
 .flip-img {
@@ -211,4 +210,11 @@ section {
   font-size: 30px;
   text-align: center;
   color: white;
+}
+
+.home-button{
+  background-color:#ff412c;
+  color:white;
+  border:none;
+  font-family:Lovelo;
 }

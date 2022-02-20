@@ -31,6 +31,12 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: Lovelo;
+  font-size: 35px;
+  text-align: center;
+}
+
 ul {
   list-style-type: none;
   margin: 0px;
@@ -271,4 +277,15 @@ section {
   background-color: white;
   color: red;
   transition: 0.5s;
+}
+
+#form-submitted-number {
+  color: white;
+  font-size: 50px;
+}
+
+.joined-text {
+  color: white;
+  margin-top: -20px;
+  margin-bottom: -20px;
 }

@@ -35,8 +35,20 @@
 
 // console.log(document.getElementById("form-submitted-number"));
 
-window.onload = function () {
-  let people = document.getElementById("#form-submitted-number");
+// window.onload = function () {
+//   let people = document.getElementById("#form-submitted-number");
 
-  document.getElementById("form-submitted-number").innerHTML = people + "test";
-};
+//   document.getElementById("form-submitted-number").innerHTML = people + "test";
+// };
+
+let formSubmittedNumber = 2;
+
+let formSubmitButton = document.getElementById("submit-form");
+formSubmittedNumber = document.getElementById("form-submitted-number");
+
+console.log(formSubmittedNumber);
+
+// formSubmitButton.onclick = function updateFormSubmitted() {
+//   formSubmitButton.innerHTML = formSubmittedNumber++;
+//   return formSubmittedNumber;
+// };

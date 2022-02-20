@@ -256,9 +256,15 @@ section {
   color: white;
 }
 
+<<<<<<< HEAD
+.event-page-button:hover{
+  background-color:#cf0d12;
+  transition:0.5s;
+=======
 .event-page-button-link:hover {
   text-decoration: none;
   color: red;
+>>>>>>> d49180cb251d8d7333072ae1879a3a52b95c6df8
 }
 
 .form-button {

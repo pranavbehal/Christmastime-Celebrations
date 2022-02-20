@@ -45,9 +45,9 @@ li {
 
 li a {
   color: whitesmoke;
-  text-align:left;
+  text-align: left;
   display: block;
-  padding:14px 16px;
+  padding: 14px 16px;
   background-color: #ff412c;
   text-decoration: none;
   font-family: Lovelo;
@@ -99,8 +99,9 @@ section {
 #home-div {
   background-color: rgba(0, 0, 0, 0.4);
   background-image: url(santa.png);
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
-  background-blend-mode: multiply;
   background-size: cover;
 }
 
@@ -193,7 +194,7 @@ section {
 }
 
 .info-text-heading {
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .form-link {
@@ -203,7 +204,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin:0px;
+  margin: 0px;
 }
 
 .form-h1 {

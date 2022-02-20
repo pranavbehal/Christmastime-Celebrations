@@ -233,6 +233,16 @@ section {
   border-radius:5px;
 }
 
+.event-page-button:hover{
+  background-color:#ff412c;
+  transition:0.5s;
+}
+
+.event-page-button-link{
+  text-decoration:none;
+  color:white;
+}
+
 .form-button{
   background-color:white;
   color:black;
@@ -250,3 +260,4 @@ section {
   color:white;
   transition:0.5s;
 }
+

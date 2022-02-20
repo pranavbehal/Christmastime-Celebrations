@@ -41,14 +41,28 @@
 //   document.getElementById("form-submitted-number").innerHTML = people + "test";
 // };
 
-let formSubmittedNumber = 2;
+var formSubmittedNumber = 538;
 
-let formSubmitButton = document.getElementById("submit-form");
-formSubmittedNumber = document.getElementById("form-submitted-number");
+// var formSubmitButton = document.getElementById("submit-form");
+// formSubmittedNumber = document.getElementById("form-submitted-number");
 
-console.log(formSubmittedNumber);
+// console.log(formSubmittedNumber);
 
 // formSubmitButton.onclick = function updateFormSubmitted() {
 //   formSubmitButton.innerHTML = formSubmittedNumber++;
 //   return formSubmittedNumber;
 // };
+
+function onClick() {
+  formSubmittedNumber++;
+  document.getElementById("form-submitted-number");
+}
+
+var clicks = 538;
+
+function onClick() {
+  clicks += 1;
+  document.getElementById("form-submitted-number").innerHTML = clicks;
+}
+
+sessionStorage.setItem("clicks", "");

@@ -290,3 +290,9 @@ section {
   margin-top: -20px;
   margin-bottom: -20px;
 }
+
+.form-p {
+  font-family: Montserrat;
+  color: lightcyan;
+  margin-top: 35px;
+}

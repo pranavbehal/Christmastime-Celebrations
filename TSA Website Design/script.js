@@ -35,8 +35,32 @@
 
 // console.log(document.getElementById("form-submitted-number"));
 
-window.onload = function () {
-  let people = document.getElementById("#form-submitted-number");
+// window.onload = function () {
+//   let people = document.getElementById("#form-submitted-number");
 
-  document.getElementById("form-submitted-number").innerHTML = people + "test";
-};
+//   document.getElementById("form-submitted-number").innerHTML = people + "test";
+// };
+
+var formSubmittedNumber = 538;
+
+// var formSubmitButton = document.getElementById("submit-form");
+// formSubmittedNumber = document.getElementById("form-submitted-number");
+
+// console.log(formSubmittedNumber);
+
+// formSubmitButton.onclick = function updateFormSubmitted() {
+//   formSubmitButton.innerHTML = formSubmittedNumber++;
+//   return formSubmittedNumber;
+// };
+
+function onClick() {
+  formSubmittedNumber++;
+  document.getElementById("form-submitted-number");
+}
+
+var clicks = 538;
+
+function onClick() {
+  clicks += 1;
+  document.getElementById("form-submitted-number").innerHTML = clicks;
+}

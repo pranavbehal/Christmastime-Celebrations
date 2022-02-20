@@ -3,6 +3,11 @@
   src: url(Lovelo\ Black.otf);
 }
 
+@font-face{
+  font-family:Montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+
 body {
   background-color: #f1f2f4;
   margin: 0px;
@@ -12,6 +17,7 @@ body {
 p {
   color: #213d64;
   font-size: 20px;
+  font-family:Montserrat;
 }
 
 h1 {
@@ -169,7 +175,7 @@ section {
 .td {
   display: table-cell;
   width: 50%;
-  vertical-align: top;
+  vertical-align:top;
 }
 
 .td-img {
@@ -207,17 +213,39 @@ section {
 }
 
 .form-p {
-  font-size: 30px;
   text-align: center;
   color: white;
+  font-family:sans-serif;
+  font-size:200%;
+  margin:5% 15%;
+
 }
 
-.home-button{
-  background-color:#ff412c;
+.event-page-button{
+  background-color:#FF5846;
   color:white;
   border:none;
   font-family:Lovelo;
+  font-size:100%;
   padding:16px;
   margin:14px;
   border-radius:5px;
+}
+
+.form-button{
+  background-color:white;
+  color:black;
+  border:none;
+  font-family:Lovelo;
+  font-size:200%;
+  padding:16px;
+  display:block;
+  margin:auto;
+  border-radius:5px;
+}
+
+.form-button:hover{
+  background-color:black;
+  color:white;
+  transition:0.5s;
 }

@@ -41,7 +41,7 @@
 //   document.getElementById("form-submitted-number").innerHTML = people + "test";
 // };
 
-var formSubmittedNumber = 538;
+let formSubmittedNumber = 538;
 
 // var formSubmitButton = document.getElementById("submit-form");
 // formSubmittedNumber = document.getElementById("form-submitted-number");
@@ -53,12 +53,12 @@ var formSubmittedNumber = 538;
 //   return formSubmittedNumber;
 // };
 
+let clicks = 538;
+
 function onClick() {
   formSubmittedNumber++;
   document.getElementById("form-submitted-number");
 }
-
-var clicks = 538;
 
 function onClick() {
   clicks += 1;

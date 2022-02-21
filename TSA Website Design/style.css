@@ -235,7 +235,7 @@ header {
   margin-bottom: 10px;
 }
 
-.form-link {
+#formLink {
   height: 800px;
   background-image: url(germany.jpg);
   background-attachment: fixed;

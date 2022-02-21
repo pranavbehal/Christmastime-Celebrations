@@ -8,6 +8,10 @@
   src: url(Montserrat-Regular.ttf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #f1f2f4;
   margin: 0px;

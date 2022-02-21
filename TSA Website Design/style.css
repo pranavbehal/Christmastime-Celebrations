@@ -8,10 +8,6 @@
   src: url(Montserrat-Regular.ttf);
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   background-color: #f1f2f4;
   margin: 0px;
@@ -48,6 +44,7 @@ ul {
   overflow: hidden;
   background-color: #ff412c;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  height:48px;
 }
 
 li {
@@ -55,22 +52,18 @@ li {
 }
 
 li a {
+  display:block;
   color: whitesmoke;
-  text-align: left;
-  display: block;
-  padding: 14px 16px;
-  background-color: #ff412c;
+  text-align:center;
+  padding:16px 16px;
   text-decoration: none;
   font-family: Lovelo;
+  height: 48px;
 }
 
 li a:hover {
   background-color: #cf0d12;
   color: white;
-}
-
-img {
-  width: 100%;
 }
 
 section {
@@ -127,42 +120,21 @@ section {
 }
 
 .fixed-nav {
-  position: fixed;
-  left: 0px;
-  text-align: center;
-  top: 0px;
-  width: 100%;
+  position:fixed;
+  left:0px;
+  text-align:center;
+  top:0px;
+  width:100%;
 }
 
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+a.logo{
+  padding:0px;
 }
 
-.logo {
-  cursor: pointer;
-  width: 100px;
-  margin-right: 700px;
-  margin-left: 70px;
+.logo-img{
+  height:100%;
 }
 
-.nav-links {
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav-links li a {
-  transition: al 0.3s ease 0s;
-}
-
-.nav-links li a:hover {
-  color: white;
-}
 
 .event-div {
   height: 250px;
@@ -227,8 +199,7 @@ header {
 
 .round-img {
   border-radius: 75px;
-  width: 95%;
-  padding: 2%;
+  width:95%;
 }
 
 .flip-img {
@@ -239,8 +210,8 @@ header {
   margin-bottom: 10px;
 }
 
-#formLink {
-  height: 800px;
+#form-link {
+  height:800px;
   background-image: url(germany.jpg);
   background-attachment: fixed;
   background-position: center;

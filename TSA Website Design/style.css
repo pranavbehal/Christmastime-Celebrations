@@ -138,6 +138,9 @@ header {
 
 .logo {
   cursor: pointer;
+  width: 100px;
+  margin-right: 700px;
+  margin-left: 70px;
 }
 
 .nav-links {

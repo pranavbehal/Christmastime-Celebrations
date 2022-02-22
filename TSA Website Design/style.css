@@ -44,7 +44,7 @@ ul {
   overflow: hidden;
   background-color: #ff412c;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-  height:48px;
+  height:50px;
 }
 
 li {
@@ -58,7 +58,7 @@ li a {
   padding:16px 16px;
   text-decoration: none;
   font-family: Lovelo;
-  height: 48px;
+  height: 50px;
 }
 
 li a:hover {
@@ -102,7 +102,7 @@ section {
 
 #home-header-div {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(santa.png);
+  background-image: url(pexels-brett-sayles-1708601.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -111,7 +111,7 @@ section {
 }
 
 #special-text {
-  color: lightcoral;
+  color: #ff412c;
 }
 
 .active {
@@ -137,29 +137,35 @@ a.logo{
 
 
 .event-div {
-  height: 250px;
-  width: 250px;
+  width: 20%;
   background-color: white;
-  border-radius: 10%;
-  margin: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0px 20px;
   box-shadow: 3px 3px 10px grey;
-  text-align: center;
-  padding: 5px;
 }
 
 .event-heading {
   font-size: x-large;
   text-decoration: underline #ff412c;
+  margin-left: 2%;
 }
 
-#event-container {
+.event-container {
   display: flex;
   justify-content: center;
 }
 
 .event-description {
   text-align: left;
-  margin-left: 2%;
+  margin: 2%;
+}
+
+.event-img{
+  width:20%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 0px 20px;
 }
 
 #zoom-div {

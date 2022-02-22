@@ -100,7 +100,7 @@ section {
   padding: 0px 30px;
 }
 
-#home-div {
+#home-header-div {
   background-color: rgba(0, 0, 0, 0.2);
   background-image: url(santa.png);
   background-attachment: fixed;
@@ -108,6 +108,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
+  margin-top:48px;
 }
 
 #special-text {
@@ -195,6 +196,7 @@ a.logo{
 
 .td-img {
   line-height: 0px;
+  text-align:center;
 }
 
 .round-img {
@@ -208,30 +210,6 @@ a.logo{
 
 .info-text-heading {
   margin-bottom: 10px;
-}
-
-#form-link {
-  height:800px;
-  background-image: url(germany.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0px;
-}
-
-.form-h1 {
-  font-size: 70px;
-  padding-top: 200px;
-  color: white;
-}
-
-.form-p {
-  text-align: center;
-  color: white;
-  font-family: sans-serif;
-  font-size: 200%;
-  margin: 5% 15%;
 }
 
 .event-page-button {
@@ -290,14 +268,31 @@ a.logo{
   font-size: 50px;
 }
 
-.joined-text {
-  color: white;
-  margin-top: -20px;
-  margin-bottom: -20px;
-}
-
 .form-p {
   font-family: Montserrat;
   color: lightcyan;
   margin-top: 35px;
+}
+
+#form-div {
+  background-image: url(germany.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:100px;
+}
+
+.form-h1 {
+  font-size: 70px;
+  padding-top: 100px;
+  color: white;
+}
+
+.form-p {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 200%;
+  margin: 5% 15%;
 }

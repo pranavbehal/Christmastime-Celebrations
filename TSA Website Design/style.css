@@ -42,9 +42,9 @@ ul {
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #E40010;
+  background-color: #e40010;
   box-shadow: 3px 3px 10px rgb(0, 0, 0);
-  height:50px;
+  height: 50px;
 }
 
 li {
@@ -52,10 +52,10 @@ li {
 }
 
 li a {
-  display:block;
+  display: block;
   color: whitesmoke;
-  text-align:center;
-  padding:16px 16px;
+  text-align: center;
+  padding: 16px 16px;
   text-decoration: none;
   font-family: Lovelo;
   height: 50px;
@@ -67,7 +67,7 @@ li a:hover {
 }
 
 section {
-  margin:16px 0px;
+  margin: 16px 0px;
 }
 
 .page-header {
@@ -105,7 +105,7 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
-  margin-top:48px;
+  margin-top: 48px;
 }
 
 #special-text {
@@ -118,32 +118,31 @@ section {
 }
 
 .fixed-nav {
-  position:fixed;
-  left:0px;
-  text-align:center;
-  top:0px;
-  width:100%;
+  position: fixed;
+  left: 0px;
+  text-align: center;
+  top: 0px;
+  width: 100%;
 }
 
-a.logo{
-  padding:0px;
+a.logo {
+  padding: 0px;
 }
 
-.logo-img{
-  height:100%;
+.logo-img {
+  height: 100%;
 }
-
 
 .event-div {
   width: 25%;
   background-color: white;
-  border-radius:5px;
+  border-radius: 5px;
   margin: 0px 20px;
 }
 
-.event-div:hover{
+.event-div:hover {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
-  transition:0.3s;
+  transition: 0.3s;
 }
 
 .event-heading {
@@ -159,14 +158,14 @@ a.logo{
 
 .event-description {
   text-align: left;
-  font-size:1.5vw;
+  font-size: 1.5vw;
   margin-left: 5%;
 }
 
-.event-img{
-  width:100%;
-  display:block;
-  height:15vw;
+.event-img {
+  width: 100%;
+  display: block;
+  height: 15vw;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -203,12 +202,12 @@ a.logo{
 
 .td-img {
   line-height: 0px;
-  text-align:center;
+  text-align: center;
 }
 
 .round-img {
   border-radius: 75px;
-  width:95%;
+  width: 95%;
 }
 
 .flip-img {
@@ -287,8 +286,8 @@ a.logo{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding:100px;
-  padding-bottom:20%;
+  padding: 100px;
+  padding-bottom: 20%;
 }
 
 .form-h1 {
@@ -302,4 +301,158 @@ a.logo{
   font-family: sans-serif;
   font-size: 200%;
   margin: 5% 15%;
+}
+
+/**/
+
+body {
+  align-items: center;
+  background: #642b73;
+  background: linear-gradient(to bottom, #c6426e, #642b73);
+  display: flex;
+  font-family: "Open Sans", sans;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1800px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+h1 {
+  color: #3e3e42;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  transform: translateZ(35px);
+}
+
+h3 {
+  color: #eb285d;
+  font-size: 16px;
+  margin-bottom: 6px;
+  transform: translateZ(25px);
+}
+
+.cards {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
+  display: inline-block;
+  padding: 30px 35px;
+  perspective: 1800px;
+  text-align: left;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+  transform: rotateX(11deg) rotateY(16.5deg);
+  min-width: 595px;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
+  // cursor: pointer;
+  display: inline-block;
+  height: 250px;
+  overflow: hidden;
+  perspective: 1200px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translatez(35px);
+  transition: transform 200ms ease-out;
+  width: 175px;
+  text-align: center;
+
+  // &:hover {
+  //   box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.5);
+  //   transform: translatez(60px);
+  // }
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.card__img {
+  position: relative;
+  height: 100%;
+}
+
+.card__bg {
+  bottom: -50px;
+  left: -50px;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  transform-origin: 50% 50%;
+  transform: translateZ(-50px);
+  z-index: 0;
+}
+
+.card__one {
+  .card__img {
+    top: 14px;
+    right: -10px;
+    height: 110%;
+  }
+  .card__bg {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_monobg.jpg")
+      center / cover no-repeat;
+  }
+  .card__text {
+    //background-color: #254b60;
+  }
+}
+
+.card__two {
+  .card__img {
+    top: 25px;
+  }
+  .card__bg {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_spirited.jpg")
+      center / cover no-repeat;
+  }
+  .card__text {
+    //background-color: #274a2e;
+  }
+}
+
+.card__three {
+  .card__img {
+    top: 5px;
+    left: -4px;
+    height: 110%;
+  }
+  .card__bg {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_howlbg.jpg")
+      center / cover no-repeat;
+  }
+  .card__text {
+    //background-color: #3e2222;
+  }
+}
+
+.card__text {
+  align-items: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.55) 100%
+  );
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.card__title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0 10px;
+  margin-bottom: 3px;
 }

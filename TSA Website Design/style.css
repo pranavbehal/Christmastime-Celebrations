@@ -387,36 +387,36 @@ h3 {
 }
 
 .card__one {
+  background-color: none;
   .card__img {
     top: 14px;
     right: -10px;
     height: 110%;
   }
   .card__bg {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_monobg.jpg")
-      center / cover no-repeat;
+    background: url("3dForest.jpg") center / cover no-repeat;
   }
 }
 
 .card__two {
+  background-color: none;
   .card__img {
     top: 25px;
   }
   .card__bg {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_spirited.jpg")
-      center / cover no-repeat;
+    background: url("3dTemple.jpg") center / cover no-repeat;
   }
 }
 
 .card__three {
+  background-color: none;
   .card__img {
     top: 5px;
     left: -4px;
     height: 110%;
   }
   .card__bg {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_howlbg.jpg")
-      center / cover no-repeat;
+    background: url("3dLand.jpg") center / cover no-repeat;
   }
 }
 

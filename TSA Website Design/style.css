@@ -351,7 +351,7 @@ h3 {
 .card {
   border-radius: 15px;
   box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
-  // cursor: pointer;
+  cursor: pointer;
   display: inline-block;
   height: 250px;
   overflow: hidden;
@@ -362,15 +362,6 @@ h3 {
   transition: transform 200ms ease-out;
   width: 175px;
   text-align: center;
-
-  // &:hover {
-  //   box-shadow: 5px 5px 20px -7px rgba(0,0,0,0.5);
-  //   transform: translatez(60px);
-  // }
-
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 
 .card__img {
@@ -389,15 +380,14 @@ h3 {
   z-index: 0;
 }
 
-.card__one {
+.card-one {
   .card__img {
     top: 14px;
     right: -10px;
     height: 110%;
   }
-  .card__bg {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_monobg.jpg")
-      center / cover no-repeat;
+  .card-bg {
+    background: url("dinner.jpg") center / cover no-repeat;
   }
   .card__text {
     //background-color: #254b60;
@@ -409,8 +399,7 @@ h3 {
     top: 25px;
   }
   .card__bg {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_spirited.jpg")
-      center / cover no-repeat;
+    background: url("cookies.jpeg") center / cover no-repeat;
   }
   .card__text {
     //background-color: #274a2e;
@@ -424,15 +413,14 @@ h3 {
     height: 110%;
   }
   .card__bg {
-    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_howlbg.jpg")
-      center / cover no-repeat;
+    background: url("shopping.jpeg") center / cover no-repeat;
   }
-  .card__text {
+  .card-bg {
     //background-color: #3e2222;
   }
 }
 
-.card__text {
+.card-bg {
   align-items: center;
   background: linear-gradient(
     to bottom,

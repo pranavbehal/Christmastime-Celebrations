@@ -305,6 +305,12 @@ a.logo {
 
 /**/
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+html,
+body {
+  height: 100%;
+}
+
 body {
   align-items: center;
   background: #642b73;
@@ -380,17 +386,15 @@ h3 {
   z-index: 0;
 }
 
-.card-one {
+.card__one {
   .card__img {
     top: 14px;
     right: -10px;
     height: 110%;
   }
-  .card-bg {
-    background: url("dinner.jpg") center / cover no-repeat;
-  }
-  .card__text {
-    //background-color: #254b60;
+  .card__bg {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_monobg.jpg")
+      center / cover no-repeat;
   }
 }
 
@@ -399,10 +403,8 @@ h3 {
     top: 25px;
   }
   .card__bg {
-    background: url("cookies.jpeg") center / cover no-repeat;
-  }
-  .card__text {
-    //background-color: #274a2e;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_spirited.jpg")
+      center / cover no-repeat;
   }
 }
 
@@ -413,14 +415,12 @@ h3 {
     height: 110%;
   }
   .card__bg {
-    background: url("shopping.jpeg") center / cover no-repeat;
-  }
-  .card-bg {
-    //background-color: #3e2222;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/62105/3dr_howlbg.jpg")
+      center / cover no-repeat;
   }
 }
 
-.card-bg {
+.card__text {
   align-items: center;
   background: linear-gradient(
     to bottom,
@@ -443,4 +443,15 @@ h3 {
   font-weight: 700;
   padding: 0 10px;
   margin-bottom: 3px;
+}
+
+.notice {
+  background: gold;
+  border-top-left-radius: 6px;
+  bottom: 0;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 8px 10px;
+  position: absolute;
+  right: -20px;
 }

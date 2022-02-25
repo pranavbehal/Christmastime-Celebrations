@@ -75,7 +75,7 @@ const range = 40;
 
 // const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
 const calcValue = (a, b) => ((a / b) * range - range / 2).toFixed(1); // thanks @alice-mx
-
+/*
 let timeout;
 document.addEventListener(
   "mousemove",
@@ -103,8 +103,10 @@ document.addEventListener(
   },
   false
 );
+*/
 
 document.onmousemove = function (e) {
-  document.getElementById("cards").style.transform =
-    "rotateY(" + e.clientX / 20 + "deg)";
+  (document.getElementById("cards").style.transform =
+    "rotateY(" + e.clientX / 50 + "deg)"),
+    "rotateX(" + e.clientY / 20 + "deg)";
 };

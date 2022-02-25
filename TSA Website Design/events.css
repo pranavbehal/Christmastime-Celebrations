@@ -80,35 +80,29 @@ h3 {
 }
 
 .card__one {
-  background-color: none;}
-  .card__img {
-    top: 14px;
-    right: -10px;
-    height: 110%;
-  }
-  .card__bg {
-    background: url("3dForest.jpg") center / cover no-repeat;
-  }
+  background-color: none;
+}
+.card__img {
+  top: 14px;
+  right: -10px;
+  height: 110%;
+}
 
 .card__two {
-  background-color: none;}
-  .card__img {
-    top: 25px;
-  }
-  .card__bg {
-    background: url("3dTemple.jpg") center / cover no-repeat;
-  }
+  background-color: none;
+}
+.card__img {
+  top: 25px;
+}
 
 .card__three {
-  background-color: none;}
-  .card__img {
-    top: 5px;
-    left: -4px;
-    height: 110%;
-  }
-  .card__bg {
-    background: url("3dLand.jpg") center / cover no-repeat;
-  }
+  background-color: none;
+}
+.card__img {
+  top: 5px;
+  left: -4px;
+  height: 110%;
+}
 
 .card__text {
   align-items: center;

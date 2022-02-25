@@ -79,25 +79,16 @@ h3 {
   z-index: 0;
 }
 
-.card__one {
-  background-color: none;
-}
 .card__img {
   top: 14px;
   right: -10px;
   height: 110%;
 }
 
-.card__two {
-  background-color: none;
-}
 .card__img {
   top: 25px;
 }
 
-.card__three {
-  background-color: none;
-}
 .card__img {
   top: 5px;
   left: -4px;
@@ -127,15 +118,4 @@ h3 {
   font-weight: 700;
   padding: 0 10px;
   margin-bottom: 3px;
-}
-
-.notice {
-  background: gold;
-  border-top-left-radius: 6px;
-  bottom: 0;
-  font-family: monospace;
-  font-size: 14px;
-  padding: 8px 10px;
-  position: absolute;
-  right: -20px;
 }

@@ -37,6 +37,32 @@ h3 {
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e40010;
+  height: 80px;
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.nav-links {
+  display: flex;
+  width: 30%;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
 ul {
   list-style-type: none;
   margin: 0px;

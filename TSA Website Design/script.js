@@ -69,8 +69,8 @@ function onClick() {
  */
 
 const cards = document.querySelector(".cards");
-const images = document.querySelectorAll(".card-img");
-const backgrounds = document.querySelectorAll(".card-bg");
+const images = document.querySelectorAll(".card__img");
+const backgrounds = document.querySelectorAll(".card__bg");
 const range = 40;
 
 // const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);

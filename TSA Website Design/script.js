@@ -68,7 +68,6 @@ function onClick() {
 /*
  */
 
-/*
 const cards = document.querySelector(".cards");
 const images = document.querySelectorAll(".card__img");
 const backgrounds = document.querySelectorAll(".card__bg");
@@ -104,10 +103,3 @@ document.addEventListener(
   },
   false
 );
-
-*/
-
-document.onmousemove = function (e) {
-  document.getElementById("cards").style.transform =
-    "rotateY(" + e.clientX / 20 + "deg";
-};

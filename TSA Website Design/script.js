@@ -73,8 +73,6 @@ const images = document.querySelectorAll(".card__img");
 const backgrounds = document.querySelectorAll(".card__bg");
 const range = 40;
 
-// const calcValue = (a, b) => (((a * 100) / b) * (range / 100) -(range / 2)).toFixed(1);
-const calcValue = (a, b) => ((a / b) * range - range / 2).toFixed(1);
 /*
 let timeout;
 document.addEventListener(
@@ -103,7 +101,7 @@ document.addEventListener(
   },
   false
 );
-
+*/
 
 document.onmousemove = function (e) {
   (document.getElementById("cards").style.transform =
@@ -111,20 +109,18 @@ document.onmousemove = function (e) {
     "rotateX(" + e.clientY / 20 + "deg)";
 };
 
-document.addEventListener("mousemove", ({ x, y }) => {
-  if (timeout) {
-    window.cancelAnimationFrame(timeout);
-  }
+// document.addEventListener("mousemove", ({ x, y }) => {
+//   if (timeout) {
+//     window.cancelAnimationFrame(timeout);
+//   }
 
-  timeout = window.requestAnimationFrame(() => {
-    const yValue = calcValue(y, window.innerHeight);
-    const xValue = calcValue(x, window.innerWidth);
+//   timeout = window.requestAnimationFrame(() => {
+//     const yValue = calcValue(y, window.innerHeight);
+//     const xValue = calcValue(x, window.innerWidth);
 
-    cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
-  });
-});
-
-*/
+//     cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
+//   });
+// });
 
 // document.onmousemove = function (xValue, yValue) {
 //   window.requestAnimationFrame(() => {
@@ -137,11 +133,20 @@ document.addEventListener("mousemove", ({ x, y }) => {
 //   });
 // };
 
-function tilt(e) {
-  (document.getElementById("cards").style.transform =
-    "rotateX(" + e.clientX / 20 + "deg)"),
-    (document.getElementById("cards").style.transform =
-      "rotateY(" + e.clientY / 20 + "deg)");
-}
+// function tilt(e) {
+//   (document.getElementById("cards").style.transform =
+//     "rotateX(" + e.clientX / 20 + "deg)"),
+//     (document.getElementById("cards").style.transform =
+//       "rotateY(" + e.clientY / 20 + "deg)");
+// }
 
-document.addEventListener("mousemove", tilt);
+// document.addEventListener("mousemove", tilt);
+
+document.addEventListener("mousemove", ({ x, y }) => {
+  window.requestAnimationFrame(() => {
+    const yValue = e.clientY;
+    const xValue = e.clientX;
+
+    cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
+  });
+});

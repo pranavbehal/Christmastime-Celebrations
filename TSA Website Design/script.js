@@ -103,12 +103,6 @@ document.addEventListener(
 );
 */
 
-document.onmousemove = function (e) {
-  (document.getElementById("cards").style.transform =
-    "rotateY(" + e.clientX / 50 + "deg)"),
-    "rotateX(" + e.clientY / 20 + "deg)";
-};
-
 // document.addEventListener("mousemove", ({ x, y }) => {
 //   if (timeout) {
 //     window.cancelAnimationFrame(timeout);
@@ -142,11 +136,8 @@ document.onmousemove = function (e) {
 
 // document.addEventListener("mousemove", tilt);
 
-document.addEventListener("mousemove", ({ x, y }) => {
-  window.requestAnimationFrame(() => {
-    const yValue = e.clientY;
-    const xValue = e.clientX;
-
-    cards.style.transform = `rotateX(${yValue}deg) rotateY(${xValue}deg)`;
-  });
-});
+document.onmousemove = function (e) {
+  (document.getElementsByClassName("cards").style.transform =
+    "rotateY(" + e.clientX / 50 + "deg)"),
+    "rotateX(" + e.clientY / 20 + "deg)";
+};

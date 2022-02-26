@@ -137,7 +137,10 @@ document.addEventListener(
 // document.addEventListener("mousemove", tilt);
 
 document.onmousemove = function (e) {
-  (document.getElementsByClassName("cards").style.transform =
+  (document.getElementById("cards1").style.transform =
+    "rotateY(" + e.clientX / 50 + "deg)"),
+    "rotateX(" + e.clientY / 20 + "deg)";
+  (document.getElementById("cards2").style.transform =
     "rotateY(" + e.clientX / 50 + "deg)"),
     "rotateX(" + e.clientY / 20 + "deg)";
 };

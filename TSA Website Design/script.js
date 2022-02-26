@@ -138,9 +138,9 @@ document.addEventListener(
 
 document.onmousemove = function (e) {
   (document.getElementById("cards1").style.transform =
-    "rotateY(" + e.clientX / 50 + "deg)"),
-    "rotateX(" + e.clientY / 20 + "deg)";
+    "rotateY(" + e.clientX / 70 + "deg)"),
+    "rotateX(" + e.clientY / 70 + "deg)";
   (document.getElementById("cards2").style.transform =
-    "rotateY(" + e.clientX / 50 + "deg)"),
-    "rotateX(" + e.clientY / 20 + "deg)";
+    "rotateY(" + e.clientX / 70 + "deg)"),
+    "rotateX(" + e.clientY / 70 + "deg)";
 };

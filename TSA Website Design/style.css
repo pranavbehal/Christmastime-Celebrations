@@ -37,14 +37,39 @@ h3 {
   text-align: center;
 }
 
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e40010;
+  height: 80px;
+}
+
+.logo {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.nav-links {
+  display: flex;
+  width: 30%;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
 ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #E40010;
-  box-shadow: 3px 3px 10px rgb(0, 0, 0);
-  height:50px;
+  background-color: #e40010;
+  height: 50px;
 }
 
 li {
@@ -52,10 +77,10 @@ li {
 }
 
 li a {
-  display:block;
+  display: block;
   color: whitesmoke;
-  text-align:center;
-  padding:16px 16px;
+  text-align: center;
+  padding: 16px 16px;
   text-decoration: none;
   font-family: Lovelo;
   height: 50px;
@@ -67,13 +92,13 @@ li a:hover {
 }
 
 section {
-  margin:16px 0px;
+  margin: 16px 0px;
 }
 
 .page-header {
   text-align: center;
   color: #213d64;
-  margin: 10vw;
+  margin: 5vw;
   font-size: 4vw;
   font-family: Lovelo;
 }
@@ -105,7 +130,7 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
-  margin-top:48px;
+  margin-top: 48px;
 }
 
 #special-text {
@@ -118,32 +143,31 @@ section {
 }
 
 .fixed-nav {
-  position:fixed;
-  left:0px;
-  text-align:center;
-  top:0px;
-  width:100%;
+  position: fixed;
+  left: 0px;
+  text-align: center;
+  top: 0px;
+  width: 100%;
 }
 
-a.logo{
-  padding:0px;
+a.logo {
+  padding: 0px;
 }
 
-.logo-img{
-  height:100%;
+.logo-img {
+  height: 100%;
 }
-
 
 .event-div {
   width: 25%;
   background-color: white;
-  border-radius:5px;
+  border-radius: 5px;
   margin: 0px 20px;
 }
 
-.event-div:hover{
+.event-div:hover {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
-  transition:0.3s;
+  transition: 0.3s;
 }
 
 .event-heading {
@@ -159,14 +183,14 @@ a.logo{
 
 .event-description {
   text-align: left;
-  font-size:1.5vw;
+  font-size: 1.5vw;
   margin-left: 5%;
 }
 
-.event-img{
-  width:100%;
-  display:block;
-  height:15vw;
+.event-img {
+  width: 100%;
+  display: block;
+  height: 15vw;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
@@ -203,12 +227,12 @@ a.logo{
 
 .td-img {
   line-height: 0px;
-  text-align:center;
+  text-align: center;
 }
 
 .round-img {
   border-radius: 75px;
-  width:95%;
+  width: 95%;
 }
 
 .flip-img {
@@ -287,8 +311,8 @@ a.logo{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding:100px;
-  padding-bottom:20%;
+  padding: 100px;
+  padding-bottom: 20%;
 }
 
 .form-h1 {
@@ -303,3 +327,5 @@ a.logo{
   font-size: 200%;
   margin: 5% 15%;
 }
+
+/**/

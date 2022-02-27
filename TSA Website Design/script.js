@@ -136,11 +136,15 @@ document.addEventListener(
 
 // document.addEventListener("mousemove", tilt);
 
+let screenWidth1 = screen.width;
+let screenWidth2 = screen.width / 2;
+let screenWidth3 = screen.width / 3;
+let screenWidth4 = screen.width / 4;
+
 document.onmousemove = function (e) {
   (document.getElementById("cards1").style.transform =
-    "rotateY(" + e.clientX / 70 + "deg)"),
-    "rotateX(" + e.clientY / 70 + "deg)";
-  (document.getElementById("cards2").style.transform =
-    "rotateY(" + e.clientX / 70 + "deg)"),
-    "rotateX(" + e.clientY / 70 + "deg)";
+    "rotateY(" + (e.clientX + screenWidth4) / 70 + "deg)")(
+    (document.getElementById("cards2").style.transform =
+      "rotateY(" + (e.clientX - screenWidth1) / 70 + "deg)")
+  );
 };

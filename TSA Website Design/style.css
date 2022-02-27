@@ -43,6 +43,7 @@ nav {
   align-items: center;
   background-color: #e40010;
   height: 80px;
+  width: 100%;
 }
 
 .logo {

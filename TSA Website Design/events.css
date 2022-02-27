@@ -6,7 +6,11 @@ body {
 
 body {
   align-items: center;
-  background: linear-gradient(to bottom, #5a5a5a, #fdfffb);
+  background-image: url("221366-winter-pics-for-wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Open Sans", sans;
   justify-content: center;
   overflow: hidden;

@@ -150,3 +150,8 @@ document.onmousemove = function (e) {
       "rotateY(" + (e.clientX - screenWidth1) / 70 + "deg)")
   );
 };
+
+function toggleCard1() {
+  let clock1 = document.getElementsByClassName("card__one");
+  let displaySettingClock1 = clock1.style.display;
+}

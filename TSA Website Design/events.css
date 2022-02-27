@@ -6,8 +6,7 @@ body {
 
 body {
   align-items: center;
-  background: #642b73;
-  background: linear-gradient(to bottom, #c6426e, #642b73);
+  background: linear-gradient(to bottom, #cf2a24, #83c565);
   display: flex;
   font-family: "Open Sans", sans;
   justify-content: center;
@@ -33,18 +32,21 @@ h3 {
   transform: translateZ(25px);
 }
 
-.cards {
+.white {
+  color: white;
+}
+
+#cards1,
+#cards2 {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
   display: inline-block;
-  padding: 30px 35px;
-  perspective: 1800px;
-  text-align: left;
+  padding: 30px 30px;
+  text-align: center;
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
-  transform: rotateX(11deg) rotateY(16.5deg);
-  min-width: 595px;
+  min-width: 600px;
 }
 
 .card {
@@ -60,57 +62,15 @@ h3 {
   transform: translatez(35px);
   transition: transform 200ms ease-out;
   width: 175px;
+  padding-right: 10px;
+  padding-left: 10px;
   text-align: center;
 }
 
 .card__img {
   position: relative;
   height: 100%;
-}
-
-.card__bg {
-  bottom: -50px;
-  left: -50px;
-  position: absolute;
-  right: -50px;
-  top: -50px;
-  transform-origin: 50% 50%;
-  transform: translateZ(-50px);
-  z-index: 0;
-}
-
-.card__one {
-  background-color: none;
-  .card__img {
-    top: 14px;
-    right: -10px;
-    height: 110%;
-  }
-  .card__bg {
-    background: url("3dForest.jpg") center / cover no-repeat;
-  }
-}
-
-.card__two {
-  background-color: none;
-  .card__img {
-    top: 25px;
-  }
-  .card__bg {
-    background: url("3dTemple.jpg") center / cover no-repeat;
-  }
-}
-
-.card__three {
-  background-color: none;
-  .card__img {
-    top: 5px;
-    left: -4px;
-    height: 110%;
-  }
-  .card__bg {
-    background: url("3dLand.jpg") center / cover no-repeat;
-  }
+  left: -4px;
 }
 
 .card__text {
@@ -136,15 +96,4 @@ h3 {
   font-weight: 700;
   padding: 0 10px;
   margin-bottom: 3px;
-}
-
-.notice {
-  background: gold;
-  border-top-left-radius: 6px;
-  bottom: 0;
-  font-family: monospace;
-  font-size: 14px;
-  padding: 8px 10px;
-  position: absolute;
-  right: -20px;
 }

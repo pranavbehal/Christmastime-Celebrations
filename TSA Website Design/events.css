@@ -81,7 +81,7 @@ h3 {
 .card__img {
   position: relative;
   height: 100%;
-  left: -4px;
+  left: -10px;
 }
 
 .card__text {

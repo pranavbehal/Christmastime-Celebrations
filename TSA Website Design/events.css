@@ -6,8 +6,11 @@ body {
 
 body {
   align-items: center;
-  background: linear-gradient(to bottom, #cf2a24, #83c565);
-  display: flex;
+  background-image: url("221366-winter-pics-for-wallpaper.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Open Sans", sans;
   justify-content: center;
   overflow: hidden;
@@ -32,8 +35,14 @@ h3 {
   transform: translateZ(25px);
 }
 
-.white {
+.mini-event {
+  overflow: hidden;
+}
+
+.mini-event-para {
   color: white;
+  margin-top: 130px;
+  margin-bottom: 50px;
 }
 
 #cards1,
@@ -47,6 +56,8 @@ h3 {
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
   min-width: 600px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .card {
@@ -70,7 +81,7 @@ h3 {
 .card__img {
   position: relative;
   height: 100%;
-  left: -4px;
+  left: -10px;
 }
 
 .card__text {

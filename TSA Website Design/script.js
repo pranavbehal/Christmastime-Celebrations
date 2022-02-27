@@ -140,10 +140,13 @@ let screenWidth1 = screen.width;
 let screenWidth2 = screen.width / 2;
 let screenWidth3 = screen.width / 3;
 let screenWidth4 = screen.width / 4;
+let screenWidth5 = screen.width / 5;
+let screenWidth6 = screen.width / 6;
+let screenWidth7 = screen.width / 7;
 
 document.onmousemove = function (e) {
   (document.getElementById("cards1").style.transform =
-    "rotateY(" + (e.clientX + screenWidth4) / 70 + "deg)")(
+    "rotateY(" + (e.clientX + screenWidth7) / 70 + "deg)")(
     (document.getElementById("cards2").style.transform =
       "rotateY(" + (e.clientX - screenWidth1) / 70 + "deg)")
   );

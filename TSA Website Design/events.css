@@ -7,7 +7,7 @@ body {
 body {
   align-items: center;
   background: #642b73;
-  background: linear-gradient(to bottom, #cf2a24, #83c565);
+  background: linear-gradient(to bottom, #5a5a5a, #fdfffb);
   display: flex;
   font-family: "Open Sans", sans;
   justify-content: center;

@@ -144,8 +144,9 @@ document.onmousemove = function (e) {
   let screenWidth5 = screen.width / 5;
   let screenWidth6 = screen.width / 6;
   let screenWidth7 = screen.width / 7;
+  let screenWidth10 = screen.width / 10;
   (document.getElementById("big-card1").style.transform =
-    "rotateY(" + (e.clientX + screenWidth7) / 70 + "deg)")(
+    "rotateY(" + (e.clientX + screenWidth10) / 70 + "deg)")(
     (document.getElementById("big-card2").style.transform =
       "rotateY(" + (e.clientX - screenWidth1) / 70 + "deg)")
   );

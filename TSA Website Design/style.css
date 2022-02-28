@@ -22,75 +22,18 @@ p {
 
 h1 {
   font-family: Lovelo;
-  text-align: center;
 }
 
 h2 {
   font-family: Lovelo;
   font-size: 35px;
-  text-align: center;
 }
 
 h3 {
   font-family: Lovelo;
   font-size: 35px;
-  text-align: center;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #e40010;
-  height: 80px;
-  width: 100%;
-}
-
-.logo {
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.nav-links {
-  display: flex;
-  width: 30%;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-size: 14px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #e40010;
-  height: 50px;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: whitesmoke;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-family: Lovelo;
-  height: 50px;
-}
-
-li a:hover {
-  background-color: #cf0d12;
-  color: white;
-}
 
 section {
   margin: 16px 0px;
@@ -131,32 +74,10 @@ section {
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
-  margin-top: 48px;
 }
 
 #special-text {
   color: #ff412c;
-}
-
-.active {
-  background-color: white;
-  color: #ff412c;
-}
-
-.fixed-nav {
-  position: fixed;
-  left: 0px;
-  text-align: center;
-  top: 0px;
-  width: 100%;
-}
-
-a.logo {
-  padding: 0px;
-}
-
-.logo-img {
-  height: 100%;
 }
 
 .event-div {
@@ -319,6 +240,7 @@ a.logo {
 .form-h1 {
   font-size: 70px;
   color: white;
+  text-align: center;
 }
 
 .form-p {

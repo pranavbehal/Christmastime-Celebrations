@@ -9,7 +9,12 @@
 }
 
 /*Nav Bar*/
-.fixed-nav {
+
+#mobile-nav{
+    display: none;
+}
+
+#nav {
     display: flex;
     align-items: center;
     text-align: center;
@@ -62,5 +67,43 @@ p {
     color: #213d64;
     font-size: 22px;
     font-family: Montserrat;
+}
+
+@media screen and (max-width:500px) { 
+    .menu-content{
+        display:none;
+    }
+
+    .menu-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        background-color:#e40010
+    }
+
+    .menu-btn{
+        background-color: transparent;
+        border: none;
+        margin: 0% 25%;
+    }
+
+    .dropdown:hover  .menu-content{
+        display: block;
+        z-index: 1;
+    }
+
+    #menu-img{
+        height: 72px;
+    }
+    
+    #mobile-nav{
+        display: initial;
+    }
+
+    #computer-nav{
+        display:none;
+    }
 }
   

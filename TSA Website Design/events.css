@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
 
 body {
+  align-items: center;
   background-image: url("221366-winter-pics-for-wallpaper.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Open Sans", sans;
-  perspective: 2000px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  perspective: 1800px;
 }
 
 h1 {
@@ -29,20 +33,19 @@ h3 {
 .mini-event-para {
   color: white;
   text-align: center;
-  margin: 50px;
 }
 
 #big-card1,
 #big-card2 {
   background: #fff;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
   display: inline-block;
-  padding: 2%;
+  padding: 1.5%;
   text-align: center;
   transform-origin: 50%;
   transform-style: preserve-3d;
-  width: 500px;
+  width: 35%;
   margin: 2%;
 }
 
@@ -57,8 +60,8 @@ h3 {
   transform-style: preserve-3d;
   transform: translatez(35px);
   transition: transform 200ms ease-out;
-  width: 28%;
-  margin: 0% 2%;
+  width: 27%;
+  margin: 0% 1.5%;
   text-align: center;
 }
 

@@ -297,13 +297,14 @@ h2 {
   overflow: hidden; */
   position: relative;
   background-color: #212838;
+  color: white;
 }
 
 .response::before {
   content: "";
   position: absolute;
-  width: 0.6vw;
-  height: 90%;
+  width: 0.4vw;
+  height: 100%;
   background-color: red;
   top: 50%;
   left: 0%;
@@ -311,6 +312,6 @@ h2 {
 }
 
 .response p {
-  font-size: 1.4vw;
+  padding: 2vw;
   color: white;
 }

@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Lovelo;
+  src: url(Lovelo\ Black.otf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.ttf);
+}
+
 body {
   background-color: #f1f2f4;
   margin: 0px;
@@ -6,6 +16,16 @@ body {
 
 section {
   margin: 16px 0px;
+}
+
+h1 {
+  font-family: Lovelo;
+  text-align: center;
+}
+
+h2 {
+  font-family: Lovelo;
+  text-align: center;
 }
 
 .page-header {
@@ -29,6 +49,10 @@ section {
   margin: 75px;
   font-size: 45px;
   font-family: Lovelo;
+}
+
+.info-text-heading {
+  margin-top: 6vw;
 }
 
 .text-div {
@@ -227,5 +251,5 @@ section {
     margin: 0px 20%;
     font-size: 45px;
     font-family: Lovelo;
-  }  
+  }
 }

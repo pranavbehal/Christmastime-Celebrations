@@ -293,8 +293,8 @@ h2 {
 }
 
 .response {
-  /* max-height: 0;
-  overflow: hidden; */
+  max-height: 0;
+  overflow: hidden;
   position: relative;
   background-color: #212838;
   color: white;
@@ -315,3 +315,12 @@ h2 {
   padding: 2vw;
   color: white;
 }
+
+.faq-item:target .response {
+  max-height: 20vw;
+}
+
+/* https://www.youtube.com/watch?v=dPLHi7tsoFU
+How to create an Accordion using CSS & Javascript
+https://www.youtube.com/watch?v=MXrtXg1kpVs
+Responsive FAQ accordion dropdown | HTML and CSS Tutorial */

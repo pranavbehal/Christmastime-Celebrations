@@ -156,3 +156,11 @@ function toggleCard1() {
   let clock1 = document.getElementsByClassName("card__one");
   let displaySettingClock1 = clock1.style.display;
 }
+
+const accordian = document.getElementsByClassName("faq-item");
+
+for (i = 0; i < accordian.length; i++) {
+  accordian[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+}

@@ -164,3 +164,4 @@ for (i = 0; i < accordian.length; i++) {
     this.classList.toggle("active");
   });
 }
+/* */

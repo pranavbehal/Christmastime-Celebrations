@@ -35,8 +35,7 @@ h3 {
   text-align: center;
 }
 
-#big-card1,
-#big-card2 {
+.big-card {
   background: #fff;
   border-radius: 10px;
   box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
@@ -200,4 +199,8 @@ h3 {
     padding: 0 10px;
     margin-bottom: 3px;
   }
+}
+
+#card-response1 {
+  display: none;
 }

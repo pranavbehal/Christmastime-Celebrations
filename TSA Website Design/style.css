@@ -324,3 +324,51 @@ h2 {
 How to create an Accordion using CSS & Javascript
 https://www.youtube.com/watch?v=MXrtXg1kpVs
 Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
+
+.accordian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vw;
+  background-color: lightblue;
+}
+
+.accordian .contentBox {
+  position: relative;
+  margin: 10px 20px;
+}
+
+.accordian .contentBox .label {
+  position: relative;
+  padding: 10px;
+  background-color: #2694af;
+  color: white;
+  cursor: pointer;
+}
+
+.accordian .contentBox .label::before {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5vw;
+}
+
+.accordian .contentBox .content {
+  position: relative;
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+
+.accordian .contentBox.active .content {
+  height: 150px;
+  padding: 10px;
+}
+
+.accordian .contentBox.active .label::before {
+  content: "-";
+}

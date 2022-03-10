@@ -372,3 +372,7 @@ Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
 .accordian .contentBox.active .label::before {
   content: "-";
 }
+
+.other-event-link {
+  color: black;
+}

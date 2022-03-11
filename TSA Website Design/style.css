@@ -201,10 +201,22 @@ h2 {
   display: block;
   margin: auto;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .form-button:hover {
   background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.form-button-link {
+  text-decoration: none;
+  color: black;
+}
+
+.form-button-link:hover {
+  text-decoration: none;
   color: white;
   transition: 0.5s;
 }

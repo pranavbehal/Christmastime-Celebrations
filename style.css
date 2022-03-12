@@ -284,23 +284,15 @@ p {
 
 .faq-class {
   background-color: #3c4053;
-  display: flex;
   align-items: center;
   justify-content: center;
   color: white;
+  margin-top: 50px;
 }
 
 .faq-container {
   margin: 0 auto;
-  padding: 0 1.5vw;
-}
-
-.faq-item {
-  background-color: #283042;
-  border-radius: 0.4vw;
-  margin-bottom: 1vw;
-  padding: 1vw;
-  box-shadow: 0.5vw 2px 0.5vw rgba(0, 0, 0, 0.1);
+  padding: 1.5vw;
 }
 
 .faq-link {
@@ -321,14 +313,14 @@ p {
 }
 
 .response {
-  max-height: 0;
+  display:none;
   overflow: hidden;
-  position: relative;
   background-color: #212838;
   color: white;
+  margin: 16px;
 }
 
-.response::before {
+/*.response::before {
   content: "";
   position: absolute;
   width: 0.4vw;
@@ -337,6 +329,20 @@ p {
   top: 50%;
   left: 0%;
   transform: translateY(-50%);
+}
+*/
+
+#question-1:hover + #response-1{
+  display:block;
+}
+#question-2:hover + #response-2{
+  display:block;
+}
+#question-3:hover + #response-3{
+  display:block;
+}
+#question-4:hover + #response-4{
+  display:block;
 }
 
 .response p {
@@ -347,6 +353,21 @@ p {
 .faq-item:target .response {
   max-height: 20vw;
 }
+
+.question-div{
+  background-color: #283042;
+  border-radius: 0.4vw;
+  margin-bottom: 1vw;
+  padding: 1vw;
+  box-shadow: 0.5vw 2px 0.5vw rgba(0, 0, 0, 0.1);
+}
+
+.question-p{
+  text-align: left;
+  color: white;
+}
+
+
 
 /* https://www.youtube.com/watch?v=dPLHi7tsoFU
 How to create an Accordion using CSS & Javascript

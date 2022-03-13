@@ -33,7 +33,7 @@
   
 #text-logo{
     color:white;
-    font-size: 200%;
+    font-size: 3vw;
     padding: 0px;
     margin:0px;
     font-family: Lovelo;
@@ -70,6 +70,10 @@ p {
 }
 
 @media screen and (max-width:500px) { 
+    #text-logo{
+        font-size:4.5vw;
+    }
+
     .menu-content{
         display:none;
     }

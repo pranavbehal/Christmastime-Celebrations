@@ -10,7 +10,6 @@ body {
   font-family: "Open Sans", sans;
   justify-content: center;
   text-align: center;
-  overflow: hidden;
   perspective: 1800px;
 }
 
@@ -33,6 +32,8 @@ h3 {
 .mini-event-para {
   color: white;
   text-align: center;
+  font-size: 2vw;
+  margin: 2% 5%;
 }
 
 .big-card {

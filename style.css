@@ -424,6 +424,11 @@ Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
 
 .other-event-link {
   color: black;
+  font-family: Montserrat;
+  text-align:center;
+}
+#other-events-text{
+  margin:5%;
 }
 
 /*Image Carousel*/

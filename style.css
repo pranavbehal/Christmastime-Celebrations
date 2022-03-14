@@ -63,7 +63,7 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width:100%;
+  width: 100%;
 }
 
 .info-text-heading {
@@ -77,7 +77,7 @@ p {
 
 #home-header-div {
   background-color: rgba(0, 0, 0, 0.4);
-  background-image: url(pexels-dana-tentis-364668.jpg);
+  background-image: url(christmas-gcd6dc9b54_1280.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -85,20 +85,20 @@ p {
   height: 100vh;
 }
 
-#mobile-home{
-  display:none;
+#mobile-home {
+  display: none;
 }
 
-@media screen and (max-width: 500px){
-  #mobile-home{
-    display:block;
+@media screen and (max-width: 500px) {
+  #mobile-home {
+    display: block;
   }
 
-  #desk-home{
-    display:none;
+  #desk-home {
+    display: none;
   }
 
-  #home-header{
+  #home-header {
     font-size: 20px;
   }
 }
@@ -333,7 +333,7 @@ p {
 }
 
 .response {
-  display:none;
+  display: none;
   overflow: hidden;
   background-color: #212838;
   color: white;
@@ -352,17 +352,17 @@ p {
 }
 */
 
-#question-1:hover + #response-1{
-  display:block;
+#question-1:hover + #response-1 {
+  display: block;
 }
-#question-2:hover + #response-2{
-  display:block;
+#question-2:hover + #response-2 {
+  display: block;
 }
-#question-3:hover + #response-3{
-  display:block;
+#question-3:hover + #response-3 {
+  display: block;
 }
-#question-4:hover + #response-4{
-  display:block;
+#question-4:hover + #response-4 {
+  display: block;
 }
 
 .response p {
@@ -374,7 +374,7 @@ p {
   max-height: 20vw;
 }
 
-.question-div{
+.question-div {
   background-color: #283042;
   border-radius: 0.4vw;
   margin-bottom: 1vw;
@@ -382,12 +382,10 @@ p {
   box-shadow: 0.5vw 2px 0.5vw rgba(0, 0, 0, 0.1);
 }
 
-.question-p{
+.question-p {
   text-align: left;
   color: white;
 }
-
-
 
 /* https://www.youtube.com/watch?v=dPLHi7tsoFU
 How to create an Accordion using CSS & Javascript
@@ -445,10 +443,10 @@ Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
 .other-event-link {
   color: black;
   font-family: Montserrat;
-  text-align:center;
+  text-align: center;
 }
-#other-events-text{
-  margin:5%;
+#other-events-text {
+  margin: 5%;
 }
 
 /*Image Carousel*/

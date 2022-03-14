@@ -56,9 +56,13 @@ p {
 #home-header {
   text-align: center;
   color: white;
-  margin: 75px;
   font-size: 45px;
   font-family: Lovelo;
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 .info-text-heading {
@@ -77,10 +81,29 @@ p {
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
+  height: 100vh;
 }
 
 #special-text {
   color: #ff412c;
+}
+
+#mobile-home{
+  display:none;
+}
+
+@media screen and (max-width: 500px){
+  #mobile-home{
+    display:block;
+  }
+
+  #desk-home{
+    display:none;
+  }
+
+  #home-header{
+    font-size: 20px;
+  }
 }
 
 .event-div {

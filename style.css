@@ -56,13 +56,14 @@ p {
 #home-header {
   text-align: center;
   color: white;
-  font-size: 45px;
+  font-size: 50px;
   font-family: Lovelo;
   margin: 0px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
+  width:100%;
 }
 
 .info-text-heading {
@@ -75,17 +76,13 @@ p {
 }
 
 #home-header-div {
-  background-color: rgba(0, 0, 0, 0.2);
-  background-image: url(pexels-brett-sayles-1708601.jpg);
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url(pexels-dana-tentis-364668.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-blend-mode: multiply;
   height: 100vh;
-}
-
-#special-text {
-  color: #ff412c;
 }
 
 #mobile-home{

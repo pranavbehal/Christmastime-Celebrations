@@ -56,7 +56,7 @@ p {
 #home-header {
   text-align: center;
   color: white;
-  font-size: 50px;
+  font-size: 3vw;
   font-family: Lovelo;
   margin: 0px;
   position: absolute;
@@ -100,8 +100,8 @@ p {
 
   #home-header {
     font-size: 20px;
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
     font-size: 45px;
     font-family: Lovelo;
   }

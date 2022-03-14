@@ -105,6 +105,10 @@ p {
     font-size: 45px;
     font-family: Lovelo;
   }
+
+  #home-header-div{
+    background-image: url("pexels-dana-tentis-364668.jpg")
+  }
 }
 
 .event-div {

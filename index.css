@@ -67,6 +67,18 @@ p {
   font-family: Montserrat;
 }
 
+#down-arrow{ 
+  text-align: center;
+  color: white;
+  font-size: 10vw;
+  font-family: Lovelo;
+  margin: 0px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 500px) {
   #text-logo {
     font-size: 4.5vw;

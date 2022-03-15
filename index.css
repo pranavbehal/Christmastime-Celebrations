@@ -93,6 +93,7 @@ p {
   .dropdown:hover .menu-content {
     display: block;
     position: absolute;
+    z-index: 1;
   }
 
   #menu-img {

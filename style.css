@@ -517,3 +517,12 @@ Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
 }
 
 /* RSVP FORM CSS */
+
+.form-section {
+  body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6); 
+}

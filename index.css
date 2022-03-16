@@ -76,6 +76,7 @@ p {
   position: absolute;
   top: 85%;
   left: 50%;
+  width:10vw;
   transform: translate(-50%, -50%);
 }
 
@@ -118,5 +119,9 @@ p {
 
   #computer-nav {
     display: none;
+  }
+
+  #down-arrow{
+    display:none;
   }
 }

@@ -2,7 +2,6 @@
 
 body {
   align-items: center;
-  background-image: url("christmas-ornament-ge5abbd779_1920.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,6 +27,59 @@ h3 {
   margin-bottom: 6px;
   transform: translateZ(25px);
 }
+
+.event-div {
+  width: 25%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2)
+}
+
+.event-div:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
+.event-heading {
+  font-size: 2vw;
+  text-align: left;
+  text-decoration: underline #ff412c;
+  margin-left: 5%;
+}
+
+.event-container {
+  display: flex;
+  justify-content: center;
+}
+
+.event-description {
+  text-align: left;
+  font-size: 1.5vw;
+  margin-left: 5%;
+}
+
+.event-img {
+  width: 100%;
+  display: block;
+  height: 15vw;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.event-location{
+  text-align:left;
+  padding-left: 2%;
+}
+
+.event-time{
+  font-family: Lovelo;
+  font-size: 2vw;
+  margin: 0px 10vw;
+  margin-top:5%;
+  text-align: left;
+}
+
 
 .mini-event-para {
   color: white;

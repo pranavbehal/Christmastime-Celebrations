@@ -67,11 +67,6 @@ h3 {
   border-top-left-radius: 5px;
 }
 
-.event-location {
-  text-align: left;
-  padding-left: 2%;
-}
-
 .event-time {
   font-family: Lovelo;
   font-size: 2vw;
@@ -86,22 +81,20 @@ h3 {
 @media only screen and (max-width: 480px) {
   body {
     align-items: center;
-    background-image: url("221366-winter-pics-for-wallpaper.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "Open Sans", sans;
     justify-content: center;
-    perspective: 1800px;
     text-align: center;
-    margin: 0 20px;
+    perspective: 1800px;
   }
 
   h1 {
     color: #3e3e42;
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: -1px;
     margin-bottom: 30px;
     transform: translateZ(35px);
@@ -114,80 +107,51 @@ h3 {
     transform: translateZ(25px);
   }
 
-  .mini-event {
-    overflow: hidden;
+  .event-div {
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
   }
 
-  .mini-event-para {
-    color: white;
-    margin-top: 100px;
-    margin-bottom: 30px;
+  .event-div:hover {
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
   }
 
-  #big-card1,
-  #big-card2 {
-    background: #fff;
-    border-radius: 15px;
-    box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
-    display: inline-block;
-    padding: 30px 30px;
+  .event-heading {
+    font-size: 2vw;
     text-align: center;
-    transform-origin: 50% 50%;
-    transform-style: preserve-3d;
-    width: 250px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5%;
+    color: rgb(17, 3, 77);
   }
 
-  .card {
-    border-radius: 15px;
-    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
-    display: inline-block;
-    height: 250px;
-    overflow: hidden;
-    perspective: 1200px;
-    position: relative;
-    transform-style: preserve-3d;
-    transform: translatez(35px);
-    transition: transform 200ms ease-out;
-    width: 175px;
-    padding-right: 10px;
-    padding-left: 10px;
-    text-align: center;
-  }
-
-  .card__img {
-    position: relative;
-    height: 100%;
-    left: -10px;
-  }
-
-  .card__text {
-    align-items: center;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(0, 0, 0, 0.55) 100%
-    );
-    bottom: 0;
+  .event-container {
     display: flex;
-    flex-direction: column;
-    height: 70px;
     justify-content: center;
-    position: absolute;
+  }
+
+  .event-description {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 5%;
+  }
+
+  .event-img {
     width: 100%;
-    z-index: 2;
+    display: block;
+    height: 15vw;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
   }
 
-  .card__title {
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 0 10px;
-    margin-bottom: 3px;
+  .event-time {
+    font-family: Lovelo;
+    font-size: 2vw;
+    margin: 0px 10vw;
+    margin-top: 5%;
+    text-align: center;
+    margin-bottom: 2vw;
   }
-}
-
-#card-response1 {
-  display: none;
 }

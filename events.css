@@ -33,7 +33,7 @@ h3 {
   background-color: white;
   border-radius: 5px;
   margin: 0px 20px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2)
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
 .event-div:hover {
@@ -43,9 +43,9 @@ h3 {
 
 .event-heading {
   font-size: 2vw;
-  text-align: left;
-  text-decoration: underline #ff412c;
+  text-align: center;
   margin-left: 5%;
+  color: rgb(17, 3, 77);
 }
 
 .event-container {
@@ -54,7 +54,7 @@ h3 {
 }
 
 .event-description {
-  text-align: left;
+  text-align: center;
   font-size: 1.5vw;
   margin-left: 5%;
 }
@@ -67,84 +67,18 @@ h3 {
   border-top-left-radius: 5px;
 }
 
-.event-location{
-  text-align:left;
+.event-location {
+  text-align: left;
   padding-left: 2%;
 }
 
-.event-time{
+.event-time {
   font-family: Lovelo;
   font-size: 2vw;
   margin: 0px 10vw;
-  margin-top:5%;
-  text-align: left;
-}
-
-
-.mini-event-para {
-  color: white;
+  margin-top: 5%;
   text-align: center;
-  font-size: 2vw;
-  margin: 2% 5%;
-}
-
-.big-card {
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0px 10px 20px 20px rgba(0, 0, 0, 0.17);
-  display: inline-block;
-  padding: 1.5%;
-  text-align: center;
-  transform-origin: 50%;
-  transform-style: preserve-3d;
-  width: 35%;
-  margin: 2%;
-}
-
-.card {
-  border-radius: 15px;
-  box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.6);
-  display: inline-block;
-  height: 250px;
-  overflow: hidden;
-  perspective: 1200px;
-  position: relative;
-  transform-style: preserve-3d;
-  transform: translatez(35px);
-  transition: transform 200ms ease-out;
-  width: 27%;
-  margin: 0% 1.5%;
-  text-align: center;
-}
-
-.card__img {
-  position: relative;
-  height: 100%;
-  left: -10px;
-}
-
-.card__text {
-  align-items: center;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.55) 100%
-  );
-  bottom: 0;
-  display: flex;
-  height: 70px;
-  justify-content: center;
-  position: absolute;
-  width: 100%;
-  z-index: 2;
-}
-
-.card__title {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 0 10px;
-  margin-bottom: 3px;
+  margin-bottom: 2vw;
 }
 
 /* MEDIA FOR SMALL SCREEN */

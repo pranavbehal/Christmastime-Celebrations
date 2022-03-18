@@ -8,6 +8,11 @@
   src: url(Montserrat-Regular.ttf);
 }
 
+@font-face{
+  font-family:Kano;
+  src: url(Kano.otf)
+}
+
 body {
   background-color: #f1f2f4;
   margin: 0px;
@@ -33,17 +38,15 @@ h2 {
 
 p {
   text-align: center;
-  font-size: 2.6vh;
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
+  font-size: 2.5vh;
 }
 
 .page-header {
-  text-align: center;
-  color: #213d64;
-  margin: 5vw;
-  font-size: 4vw;
   font-family: Lovelo;
+  font-size: 3vw;
+  margin: 4%;
+  text-align: center;
+  color: #1a2f4d;
 }
 
 .small-header {
@@ -271,12 +274,17 @@ p {
   align-items: center;
   justify-content: center;
   color: white;
-  margin-top: 50px;
+  margin: 2%;
+  border-radius:10px;
 }
 
 .faq-container {
   margin: 0 auto;
   padding: 1.5vw;
+}
+
+.faq-header{
+  color:white;
 }
 
 .faq-link {
@@ -302,6 +310,7 @@ p {
   background-color: #212838;
   color: white;
   margin: 16px;
+  border-radius: 5px;
 }
 
 /*.response::before {
@@ -340,7 +349,7 @@ p {
 
 .question-div {
   background-color: #283042;
-  border-radius: 0.4vw;
+  border-radius: 5px;
   margin-bottom: 1vw;
   padding: 1vw;
   box-shadow: 0.5vw 2px 0.5vw rgba(0, 0, 0, 0.1);
@@ -481,37 +490,3 @@ Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
 .carousel-button.next {
   right: 1rem;
 }
-
-/* RSVP FORM CSS */
-
-.form-section {
-  body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6); 
-  }
-  .container{
-    max-width: 700px;
-    width: 100%
-      background: #fff
-      padding: 25px 30px;
-    border-radius: 5px;
-  }
-    .container .title{
-      font-size: 25px;
-      font-weight: 500;
-      position: relative;
-  }
-  .container .title::before{
-    content: '';
-    position absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: #9b59b6;
-  }
-    .container .form

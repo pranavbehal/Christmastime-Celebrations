@@ -1,0 +1,75 @@
+/*.container{
+    max-width: 700px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+.container .title{
+      font-size: 25px;
+      font-weight: 500;
+      position: relative;
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: #9b59b6;
+}*/
+
+body{
+    background-image: url(trees-gc3b5b34aa_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+#form-bg{
+    margin: 0px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#form-header{
+    margin: 2%;
+    font-size: 3vw;
+    font-family: Kano;
+    font-weight: bold;
+    text-align: left
+}
+
+#form{
+    width: 50%;
+    background-color: white;
+}
+
+.form-label{
+    color: #213d64;
+    font-size: 1.5vw;
+    font-family: Montserrat;
+    margin: 0% 2%;
+}
+
+.form-input{
+    margin: 2%;
+    width: 36%;
+    padding: 1%;
+    border-color: #213d64;
+    border-radius: 5px;
+}
+
+#submit-btn{
+    color:white;
+    background-color:#213d64;
+    border:none;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 2%;
+}

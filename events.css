@@ -69,11 +69,10 @@ h3 {
 
 .event-time {
   font-family: Lovelo;
-  font-size: 2vw;
-  margin: 0px 10vw;
-  margin-top: 5%;
+  font-size: 3vw;
+  margin: 5%;
   text-align: center;
-  margin-bottom: 2vw;
+  color: #1a2f4d;
 }
 
 /* MEDIA FOR SMALL SCREEN */

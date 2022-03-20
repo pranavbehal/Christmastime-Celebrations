@@ -29,12 +29,12 @@
     padding: 0px;
     flex-grow:9;
 }
-  
-#text-logo{
-    color:white;
+
+#text-logo {
+    color: white;
     font-size: 2.4vw;
     padding: 0px;
-    margin:0px;
+    margin: 0px;
     font-family: Lovelo;
 }
 
@@ -59,7 +59,6 @@ li a {
     padding: 16px;
     text-decoration: none;
     font-family: Lovelo;
-    font-size: 1em;
 }
 
 p {

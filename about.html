@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
   </head>
   <body>
     <nav id="nav">
@@ -101,6 +126,53 @@
           </div>
         </div>
       </section>
+      
+      
+      
+      
+      <button class="accordion">How much do tickets cost?</button>
+<div class="panel">
+ <p>
+              Tickets will cost $5 each per event. This includes all mini-events
+              in 1 day.
+            </p>
+      </div>
+
+<button class="accordion">Do I have to go to every part of the event?</button>
+<div class="panel">
+<p>
+              Absolutely not! You can pick & choose which parts of the event you
+              want to go to, based on our schedule located on our Event Info
+              page.
+            </p>
+      </div>
+
+<button class="accordion"> How can I help you raise money for your $5,000 goal?</button>
+<div class="panel">
+   <p>
+              You can share our website with friends & family, which is a great
+              way to help us reach out to many people about our event as well!
+              You can donate money to the fund as well, and we will be sharing
+              details on that closer to the event.
+            </p>
+      </div>
+      
+      <button class="accordion"> When will your next event be, and when can I buy tickets?</button>
+<div class="panel">
+    <p>
+              Our next event will be sometime in December 2022, and we will have
+              more details in late 2022. If you want to be notified when we
+              release this information on our website, follow this link to out
+              RSVP Form.
+            </p>
+      </div>
+      
+      
+      
+      
+      
+      
+      
       <div class="accordian">
         <div class="contentBox">
           <div class="label">How much do tickets cost?</div>
@@ -150,5 +222,22 @@
       </div>
     </section>
     <footer></footer>
+    
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
   </body>
 </html>

@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <style>
+
+</style>
   </head>
   <body>
     <nav id="nav">
@@ -59,23 +62,59 @@
       
       </div>
     </section>
-    <section aria-label="Newest Photos">
-      <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
-        <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
-        <ul data-slides>
-          <li class="slide" data-active>
-            <img src="church.jpg" alt="Nature Image #1">
-          </li>
-          <li class="slide">
-            <img src="santa.png" alt="Nature Image #2">
-          </li>
-          <li class="slide">
-            <img src="roberto-nickson-5PQn41LFsQk-unsplash.jpg" alt="Nature Image #3">
-          </li>
-        </ul>
-      </div>
-    </section>
+  <section>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="church.jpg" alt="Nature Image #1" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="christmas-g7483e8c44_1280.jpg" alt="Nature Image #2" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="bench.jpg" alt="Nature Image #3" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+  </section>
+
     <footer></footer>
+  
+  <script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
   </body>
 </html>

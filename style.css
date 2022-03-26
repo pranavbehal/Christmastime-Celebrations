@@ -360,59 +360,6 @@ p {
   color: white;
 }
 
-/* https://www.youtube.com/watch?v=dPLHi7tsoFU
-How to create an Accordion using CSS & Javascript
-https://www.youtube.com/watch?v=MXrtXg1kpVs
-Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
-
-.accordian {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vw;
-  background-color: lightblue;
-}
-
-.accordian .contentBox {
-  position: relative;
-  margin: 10px 20px;
-}
-
-.accordian .contentBox .label {
-  position: relative;
-  padding: 10px;
-  background-color: #2694af;
-  color: white;
-  cursor: pointer;
-}
-
-.accordian .contentBox .label::before {
-  content: "+";
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
-  font-size: 1.5vw;
-}
-
-.accordian .contentBox .content {
-  position: relative;
-  background: white;
-  height: 0;
-  overflow: hidden;
-  transition: 0.5s;
-  overflow-y: auto;
-}
-
-.accordian .contentBox.active .content {
-  height: 150px;
-  padding: 10px;
-}
-
-.accordian .contentBox.active .label::before {
-  content: "-";
-}
-
 .other-event-link {
   color: black;
   font-family: Montserrat;
@@ -420,6 +367,34 @@ Responsive FAQ accordion dropdown | HTML and CSS Tutorial */
 }
 #other-events-text {
   margin: 5%;
+}
+
+/* Accordian */
+.accordion {
+  background-color: #283042;
+  color: white;
+  cursor: pointer;
+  padding: 1vw;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1vw;
+  transition: 0.4s;
+  font-family: Lovelo;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+  font-family: Lovelo;
+}
+
+.panel {
+  padding: 0 1vw;
+  display: none;
+  background-color: white;
+  overflow: hidden;
 }
 
 /* Carousel */

@@ -251,8 +251,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
-  padding-bottom: 20%;
+  padding: 5%;
 }
 
 .form-h1 {
@@ -264,9 +263,20 @@ p {
 .form-p {
   text-align: center;
   color: white;
-  font-family: sans-serif;
-  font-size: 200%;
+  font-family: Montserrat;
+  font-size: 150%;
   margin: 5% 15%;
+}
+
+@media screen and (max-width: 500px){
+  .form-h1{
+    font-size: 30px;
+  }
+
+  .info-text-heading{
+    font-size: 35px;
+  }
+
 }
 
 .faq-class {

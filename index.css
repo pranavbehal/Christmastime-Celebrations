@@ -79,6 +79,18 @@ p {
   transform: translate(-50%, -50%);
 }
 
+#quote-div{
+  background-color: #213d64;
+  border: 10px double white;
+  margin: 3% 10%;
+  box-shadow: 20px 15px 0px #283042;
+}
+
+#quote{
+  color: white;
+  font-size: 2.5vw;
+}
+
 @media screen and (max-width: 500px) {
   #text-logo {
     font-size: 4.5vw;

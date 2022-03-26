@@ -1,33 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
-
-body {
-  align-items: center;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Open Sans", sans;
-  justify-content: center;
-  text-align: center;
-  perspective: 1800px;
-}
-
-h1 {
-  color: #3e3e42;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -1px;
-  margin-bottom: 30px;
-  transform: translateZ(35px);
-}
-
-h3 {
-  color: #eb285d;
-  font-size: 16px;
-  margin-bottom: 6px;
-  transform: translateZ(25px);
-}
-
 .event-div {
   width: 25%;
   background-color: white;
@@ -56,6 +26,7 @@ h3 {
 .event-description {
   text-align: center;
   font-size: 1.5vw;
+  padding:1%;
 }
 
 .event-img {

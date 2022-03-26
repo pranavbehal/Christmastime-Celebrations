@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <title>Christmastime Celebrations TSA</title>
-    <link rel="icon" type="image/x-icon" href="Christmastime Celebrations.png" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="Christmastime Celebrations.png"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="common.css" />
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
   </head>
   <body>
     <nav id="nav">
@@ -33,84 +36,99 @@
         <li><a href="credits.html">CREDITS</a></li>
       </ul>
     </nav>
-    <section>
-      <p class="page-header">How Were We Founded?</p>
-      <div class="text-div">
-        <p>
-          Christmastime Celebrations was founded in late 2021, when the COVID
-          pandemic had been going on for over a year & people were losing hope.
-          We wanted to help bring hope back to the community during the holiday
-          season, and therefore we decided to create an online event that you
-          can participate in from the comfort of your home.
-        </p>
-        <p class="page-header">Our Purpose & Goals</p>
-        <p>
-          Christmastime Celebrations is an interactive, online event for
-          families to come & participate in. We are using 20% of our ticket
-          sales to raise money for doctors & health-based organizations to
-          help combat COVID. Our goal is to raise $5,000 by the end of 2022, when
-          our next major event will begin.
-        </p>
+    <p>Who Are We?</p>
+    <section class="about-section">
+      <div id="about-div1" class="half-vector-container">
+        <div class="half-vector-div"><img class="vector-img" src="COVID-19-13 .jpg"></div>
+        <div class="half-vector-div">
+          <p class="page-header about-div-p">How Were We Founded?</p>
+          <p class="about-div-p">
+            Christmastime Celebrations was founded in late 2021, when the COVID
+            pandemic had been going on for over a year & people were losing hope. We
+            wanted to help bring hope back to the community during the holiday
+            season, and therefore we decided to create an online event that you can
+            participate in from the comfort of your home.
+          </p>
+        </div>
       </div>
-      <section class="faq-class">
-        <div class="faq-container">
-          <h2 class="faq-header">Frequently Asked Questions</h2>
-
-    <button class="accordion">How much do tickets cost? +</button>
-<div class="panel">
- <p>
-              Tickets will cost $5 each per event. This includes all mini-events
-              in 1 day.
-            </p>
+      <div id="about-div2" class="half-vector-container">
+        <div class="half-vector-div">        
+          <p class="page-header about-div-p">Our Purpose & Goals</p>
+          <p class="about-div-p">
+            Christmastime Celebrations is an interactive, online event for families
+            to come & participate in. We are using 20% of our ticket sales to raise
+            money for doctors & health-based organizations to help combat COVID. Our
+            goal is to raise $5,000 by the end of 2022, when our next major event
+            will begin.
+          </p>
+        </div>
+        <div class="half-vector-div"><img class="vector-img" src="pexels-dana-tentis-364668.jpg"></div>
       </div>
 
-<button class="accordion">Do I have to go to every part of the event? +</button>
-<div class="panel">
-<p>
-              Absolutely not! You can pick & choose which parts of the event you
-              want to go to, based on our schedule located on our Event Info
-              page.
-            </p>
-      </div>
-
-<button class="accordion"> How can I help you raise money for your $5,000 goal? +</button>
-<div class="panel">
-   <p>
-              You can share our website with friends & family, which is a great
-              way to help us reach out to many people about our event as well!
-              You can donate money to the fund as well, and we will be sharing
-              details on that closer to the event.
-            </p>
-      </div>
-      
-      <button class="accordion"> When will your next event be, and when can I buy tickets? +</button>
-<div class="panel">
-    <p>
-              Our next event will be sometime in December 2022, and we will have
-              more details in late 2022. If you want to be notified when we
-              release this information on our website, follow this link to out
-              RSVP Form.
-            </p>
-      </div>
-      
     </section>
-    <footer></footer>
-    
-    <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+    <section class="faq-class">
+      <div class="faq-container">
+        <h2 class="faq-header">Frequently Asked Questions</h2>
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-</script>
+        <button class="accordion">How much do tickets cost? +</button>
+        <div class="panel">
+          <p>
+            Tickets will cost $5 each per event. This includes all mini-events
+            in 1 day.
+          </p>
+        </div>
+
+        <button class="accordion">
+          Do I have to go to every part of the event? +
+        </button>
+        <div class="panel">
+          <p>
+            Absolutely not! You can pick & choose which parts of the event you
+            want to go to, based on our schedule located on our Event Info page.
+          </p>
+        </div>
+
+        <button class="accordion">
+          How can I help you raise money for your $5,000 goal? +
+        </button>
+        <div class="panel">
+          <p>
+            You can share our website with friends & family, which is a great
+            way to help us reach out to many people about our event as well! You
+            can donate money to the fund as well, and we will be sharing details
+            on that closer to the event.
+          </p>
+        </div>
+
+        <button class="accordion">
+          When will your next event be, and when can I buy tickets? +
+        </button>
+        <div class="panel">
+          <p>
+            Our next event will be sometime in December 2022, and we will have
+            more details in late 2022. If you want to be notified when we
+            release this information on our website, follow this link to out
+            RSVP Form.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
   </body>
 </html>

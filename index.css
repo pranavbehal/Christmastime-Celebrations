@@ -81,9 +81,10 @@ p {
 
 #quote-div{
   background-color: #213d64;
-  border: 10px double white;
+ padding: 2%;
   margin: 3% 10%;
-  box-shadow: 20px 15px 0px #283042;
+  box-shadow: 20px 15px 5px #283042;
+  border-radius: 5px;
 }
 
 #quote{

@@ -38,7 +38,6 @@ h2 {
 
 p {
   text-align: center;
-  font-size: 2.5vh;
 }
 
 .page-header {
@@ -298,67 +297,6 @@ p {
   font-family: Kano;
 }
 
-.faq-link {
-  font-size: 1.6vw;
-  color: white;
-  text-decoration: none;
-  background-color: #283042;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1vw 0;
-}
-
-.faq-link i {
-  color: #cf0d12;
-  padding: 0.5vw;
-}
-
-.response {
-  display: none;
-  overflow: hidden;
-  background-color: #212838;
-  color: white;
-  margin: 16px;
-  border-radius: 5px;
-}
-
-#question-1:hover + #response-1 {
-  display: block;
-}
-#question-2:hover + #response-2 {
-  display: block;
-}
-#question-3:hover + #response-3 {
-  display: block;
-}
-#question-4:hover + #response-4 {
-  display: block;
-}
-
-.response p {
-  padding: 2vw;
-  color: white;
-}
-
-.faq-item:target .response {
-  max-height: 20vw;
-}
-
-.question-div {
-  background-color: #283042;
-  border-radius: 5px;
-  margin-bottom: 1vw;
-  padding: 1vw;
-  box-shadow: 0.5vw 2px 0.5vw rgba(0, 0, 0, 0.1);
-}
-
-.question-p {
-  text-align: left;
-  color: white;
-}
-
 .other-event-link {
   color: black;
   font-family: Montserrat;
@@ -382,7 +320,7 @@ p {
   outline: none;
   font-size: 1vw;
   transition: 0.4s;
-  font-family: Lovelo;
+  font-family: Kano;
   margin:1% 0%;
   border-radius:5px;
   font-size: 1.5vw;
@@ -391,7 +329,6 @@ p {
 .active,
 .accordion:hover {
   background-color: #bbb;
-  font-family: Lovelo;
 }
 
 .panel {
@@ -503,7 +440,7 @@ img {
 
 .half-vector-div{
   width: 42%;
-  margin: 2%
+  margin: 5%
 }
 
 .half-vector-header{
@@ -516,9 +453,26 @@ img {
   text-align: left;
 }
 
-#vector-img{
+.vector-img{
   width: 100%;
   height: 100%;
+}
+
+#about-div1{
+  background-color:#3c4053;
+}
+
+#about-div2{
+  background-color: #FF5846;
+}
+
+
+.about-div-p{
+  color:white;
+}
+
+.about-section{
+  margin: 0px;
 }
 
 

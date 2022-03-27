@@ -185,3 +185,9 @@ buttons.forEach((button) => {
     delete activeSlide.dataset.active;
   });
 });
+
+document.getElementById("submit-btn").addEventListener("click", function () {
+  document.getElementById("hide-rsvp-p").className = document
+    .getElementById("hide-rsvp-p")
+    .className.replace(/(?:^|\s)MyClass(?!\S)/g, "");
+});

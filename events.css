@@ -12,9 +12,9 @@
   transition: 0.3s;
 }
 
-.event-heading {
+.event-description-heading {
   font-size: 2vw;
-  text-align: center;
+  text-align: left;
   margin-left: 5%;
   color: #FF5846;
 }
@@ -25,9 +25,10 @@
 }
 
 .event-description {
-  text-align: center;
+  text-align: left;
   font-size: 1.5vw;
-  padding:1%;
+  padding: 1%;
+  margin-left: 5%;
 }
 
 .event-img {
@@ -40,11 +41,76 @@
 
 .event-time {
   font-family: Lovelo;
-  font-size: 3vw;
-  margin: 5%;
-  text-align: center;
+  font-size: 2.5vw;
+  margin: 3% 8%;
+  text-align: left;
   color: #1a2f4d;
 }
+
+#event-header-div{
+  background-image:url(valiant-made-UrzN-8K1PCE-unsplash.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 2% 10%;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+}
+
+#event-header{
+  color: white;
+  font-family: Lovelo;
+  font-size: 350%;
+  text-align: left;
+}
+
+#event-header-description{
+  color: white;
+  font-family: Montserrat;
+  text-align: left;
+}
+
+#event-header-btn{
+  border: none;
+  padding: 2%;
+  color: white;
+  font-family: Montserrat;
+  background-color: #FF5846;
+  border-radius: 5px;
+  font-size: 120%;
+  margin: 2%;
+}
+
+.special-event-container{
+  perspective: 2500px;
+  display: flex;
+  justify-content: center;
+}
+
+.special-event-div1 {
+  width: 40%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px 3%;
+  transition: 0.3s;
+  box-shadow: -25px 0px 15px rgba(0, 0, 0, 0.2);
+  transform: rotateY(20deg)
+}
+
+.special-event-div2 {
+  width: 40%;
+  background-color: white;
+  border-radius: 5px;
+  margin: 0px 3%;
+  transition: 0.3s;
+  box-shadow: 25px 0px 15px rgba(0, 0, 0, 0.2);
+  transform: rotateY(-20deg)
+}
+
+.special-event-div:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.8);
+  transition: 0.3s;
+}
+
 
 /* MEDIA FOR SMALL SCREEN */
 

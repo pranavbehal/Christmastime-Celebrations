@@ -97,6 +97,7 @@ p {
     .dropdown:hover  .menu-content{
         display: block;
         position: absolute;
+        background-color: #e40010;
     }
 
     #menu-img{

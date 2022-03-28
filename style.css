@@ -428,7 +428,8 @@ img {
     font-size: 11px;
   }
 }
-/**/
+
+
 .half-vector-container {
   display: flex;
   align-items: center;
@@ -448,7 +449,7 @@ img {
 }
 
 .vector-p {
-  text-align: justify;
+  text-align: left;
 }
 
 .vector-img {

@@ -200,25 +200,20 @@ buttons.forEach((button) => {
 // });
 
 function message() {
-  var name = document.getElementById("name");
-  var lastname = document.getElementById("lastname");
-  var email = document.getElementById("email");
-  const success = document.getElementById("success");
-  const danger = document.getElementById("danger");
+  var formInput = document.getElementsByClassName("form-input");
 
-  if (name.value === "" || email.value === "" || message.value === "") {
-    danger.style.display = "block";
+  if (formInput.value === "") {
+    console.log(1);
   } else {
     setTimeout(() => {
       name.value = "";
       lastname.value = "";
       email.value = "";
-    }, 2000);
-    success.style.display = "block";
+    }, 10000);
+    document.getElementById("hide-rsvp-p").style.display = "block";
   }
 
   setTimeout(() => {
-    danger.style.display = "none";
-    success.style.display = "none";
-  }, 4000);
+    document.getElementById("hide-rsvp-p").style.display = "none";
+  }, 5000);
 }

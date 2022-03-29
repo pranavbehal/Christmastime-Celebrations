@@ -1,25 +1,3 @@
-/*.container{
-    max-width: 700px;
-    width: 100%;
-    background: white;
-    padding: 25px 30px;
-    border-radius: 5px;
-}
-.container .title{
-      font-size: 25px;
-      font-weight: 500;
-      position: relative;
-}
-.container .title::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: #9b59b6;
-}*/
-
 body {
   background-image: url(trees-gc3b5b34aa_1280.jpg);
   background-repeat: no-repeat;
@@ -28,51 +6,168 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-#form-bg {
-  margin: 0px;
-  padding: 5%;
+#be-reminded {
+  font-size: 2vw;
+  font-family: Lovelo;
+}
+
+.form-container {
+  width: 30vw;
+  height: auto;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex;
   justify-content: center;
+}
+
+.form-box {
+  width: 13vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 60vh;
+  margin-left: -8vw;
 }
 
-#form-header {
-  margin: 2%;
-  font-size: 3vw;
-  font-family: Kano;
-  font-weight: bold;
-  text-align: left;
+.name {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1vw;
 }
 
-#form {
-  width: 50%;
-  background-color: white;
+.name i {
+  position: absolute;
+  top: 50%;
+  left: 2.5vw;
+  transform: translateY(-50%);
 }
 
-.form-label {
-  color: #213d64;
-  font-size: 1.5vw;
-  font-family: Montserrat;
-  margin: 0% 2%;
-}
-
-.form-input {
-  margin: 2%;
-  width: 36%;
-  padding: 1%;
-  border-color: #213d64;
-  border-radius: 5px;
-}
-
-#submit-btn {
-  color: white;
-  background-color: #213d64;
+.name input {
+  width: 100%;
+  padding: 1.5vw 4.5vw;
   border: none;
-  border-radius: 5px;
-  margin: 2%;
-  padding: 2%;
+  outline: none;
+  font-size: 1vw;
+  background-color: #eee;
+  border-radius: 3vw;
 }
-#hide-rsvp-p {
+
+.name input::placeholder {
+  color: #bbb;
+  font-weight: 500;
+}
+
+.lastname {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1vw;
+}
+
+.lastname i {
+  position: absolute;
+  top: 50%;
+  left: 2.5vw;
+  transform: translateY(-50%);
+}
+
+.lastname input {
+  width: 100%;
+  padding: 1.5vw 4.5vw;
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  background-color: #eee;
+  border-radius: 3vw;
+}
+
+.lastname input::placeholder {
+  color: #bbb;
+  font-weight: 500;
+}
+
+.email {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1vw;
+}
+
+.email i {
+  position: absolute;
+  top: 50%;
+  left: 2.5vw;
+  transform: translateY(-50%);
+}
+
+.email input {
+  width: 100%;
+  padding: 1.5vw 4.5vw;
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  background-color: #eee;
+  border-radius: 3vw;
+}
+
+.email input::placeholder {
+  color: #bbb;
+  font-weight: 500;
+}
+
+.button {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 1.5vw;
+}
+
+.button button {
+  width: 150%;
+  padding: 0.75vw;
+  font-size: 1.5vw;
+  color: #fff;
+  background-color: #806bcd;
+  border: none;
+  outline: none;
+  border-radius: 2vw;
+  cursor: pointer;
+}
+
+.message {
+  width: 100%;
+  position: relative;
+  margin-bottom: 3vw;
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+.message .success {
+  font-size: 1.3vw;
+  color: green;
+  position: absolute;
+  animation: button 1s linear;
+  font-family: Montserrat;
+}
+
+.message .danger {
+  font-size: 1vw;
+  color: red;
+  position: absolute;
+  animation: button 1s linear;
   display: none;
+}
+
+@keyframes buttons {
+  0% {
+    transform: scale(0.1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

@@ -186,8 +186,39 @@ buttons.forEach((button) => {
   });
 });
 
-document.getElementById("submit-btn").addEventListener("click", function () {
-  document.getElementById("hide-rsvp-p").className = document
-    .getElementById("hide-rsvp-p")
-    .className.replace(/(?:^|\s)MyClass(?!\S)/g, "");
-});
+// document.getElementById("submit-btn").addEventListener("click", function () {
+//   document.getElementById("hide-rsvp-p").classList.remove("hide");
+// });
+
+// const form = document.querySelector("#submit-btn");
+// const successMessage = document.querySelector("success_text");
+
+// form.addEventListener("submit", () => {
+//   e.preventDefault();
+//   successMessage.classList.add("show");
+//   setTimeout(() => form.submit(), 2000);
+// });
+
+function message() {
+  var name = document.getElementById("name");
+  var lastname = document.getElementById("lastname");
+  var email = document.getElementById("email");
+  const success = document.getElementById("success");
+  const danger = document.getElementById("danger");
+
+  if (name.value === "" || email.value === "" || message.value === "") {
+    danger.style.display = "block";
+  } else {
+    setTimeout(() => {
+      name.value = "";
+      lastname.value = "";
+      email.value = "";
+    }, 2000);
+    success.style.display = "block";
+  }
+
+  setTimeout(() => {
+    danger.style.display = "none";
+    success.style.display = "none";
+  }, 4000);
+}

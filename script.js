@@ -135,7 +135,7 @@ document.addEventListener(
 // }
 
 // document.addEventListener("mousemove", tilt);
-
+/*
 document.onmousemove = function (e) {
   let screenWidth1 = screen.width;
   let screenWidth2 = screen.width / 2;
@@ -151,6 +151,7 @@ document.onmousemove = function (e) {
       "rotateY(" + (e.clientX - screenWidth1) / 70 + "deg)")
   );
 };
+*/
 
 function toggleCard1() {
   let clock1 = document.getElementsByClassName("card__one");
@@ -199,12 +200,40 @@ buttons.forEach((button) => {
 //   setTimeout(() => form.submit(), 2000);
 // });
 
-function message() {
-  var formInput = document.getElementsByClassName("form-input");
+// function message() {
+//   var formInput = document.getElementsByClassName("form-input");
 
-  if (formInput.value === "") {
-    console.log(1);
+//   console.log(document.querySelector("#email_i").value);
+
+//   if (formInput.value === "") {
+//     console.log(false);
+//   } else {
+//     console.log(true);
+//     setTimeout(() => {
+//       name.value = "";
+//       lastname.value = "";
+//       email.value = "";
+//     }, 10000);
+//     document.getElementById("hide-rsvp-p").style.display = "block";
+//   }
+
+//   setTimeout(() => {
+//     document.getElementById("hide-rsvp-p").style.display = "none";
+//   }, 5000);
+// }
+
+function message1() {
+  var firstNameInput = document.querySelector("#fname_i");
+  var lastNameInput = document.querySelector("#lname_i");
+  var emailInput = document.querySelector("#email_i");
+  if (
+    firstNameInput.value === "" ||
+    lastNameInput.value === "" ||
+    emailInput.value === ""
+  ) {
+    console.log("Error, please fill out the forms");
   } else {
+    console.log(true);
     setTimeout(() => {
       name.value = "";
       lastname.value = "";

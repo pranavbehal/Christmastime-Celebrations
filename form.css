@@ -4,14 +4,7 @@ body {
   background-size: cover;
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-body {
-  background-image: url(trees-gc3b5b34aa_1280.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.1);
+  height: 100vh;
 }
 
 #form-bg {
@@ -120,3 +113,22 @@ textarea:valid ~ label {
   font-size: 14px;
 }
 **/
+
+
+@media only screen and (max-width: 500px){
+  .form-label{
+    font-size: 15px;
+  }
+
+  .form-input{
+    width: 75%;
+  }
+
+  #form{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+}

@@ -56,9 +56,9 @@ body {
   background-color: #213d64;
   border: none;
   border-radius: 5px;
-  margin: 2%;
   padding: 2%;
-  width: 30vw;
+  margin: 2% 0% 2% 2%;
+  width: 96%;
 }
 #hide-rsvp-p {
   display: none;
@@ -87,6 +87,8 @@ textarea {
   background: transparent;
   font-size: 15px;
 }
+
+/**
 label {
   height: 100%;
   position: absolute;
@@ -97,6 +99,7 @@ label {
   cursor: text;
   transition: 0.2s;
 }
+**/
 button {
   padding: 0px 0;
   color: #000000;
@@ -106,6 +109,9 @@ button {
   width: 100%;
   cursor: pointer;
 }
+
+
+/**
 input:focus ~ label,
 input:valid ~ label,
 textarea:focus ~ label,
@@ -113,3 +119,4 @@ textarea:valid ~ label {
   top: -35px;
   font-size: 14px;
 }
+**/

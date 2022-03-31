@@ -231,7 +231,7 @@ function message1() {
     lastNameInput.value === "" ||
     emailInput.value === ""
   ) {
-    console.log("Error, please fill out the forms");
+    document.getElementById("hide-rsvp-p2").style.display = "block";
   } else {
     console.log(true);
     setTimeout(() => {
@@ -239,10 +239,7 @@ function message1() {
       lastname.value = "";
       email.value = "";
     }, 10000);
+    document.getElementById("hide-rsvp-p2").style.display = "none";
     document.getElementById("hide-rsvp-p").style.display = "block";
   }
-
-  setTimeout(() => {
-    document.getElementById("hide-rsvp-p").style.display = "none";
-  }, 5000);
 }

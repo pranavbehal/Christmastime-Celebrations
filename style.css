@@ -468,14 +468,10 @@ img {
 
 #about-div1 {
   background-color: #3c4053;
-  transform: skew(0deg, -5deg);
-  margin-top: 2%;
 }
 
 #about-div2 {
   background-color: #ff5846;
-  transform: skew(0deg, 5deg);
-  margin-top: 6%;
 }
 
 .about-div-p {

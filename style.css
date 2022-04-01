@@ -461,14 +461,12 @@ img {
 #half-vector-div1 {
   transform: skew(0deg, 5deg);
   position: relative;
-  z-index: 4;
-  margin-top: 50px;
+  margin-top: 1%;
 }
 
 #half-vector-div2 {
   transform: skew(0deg, -5deg);
   position: relative;
-  z-index: 1;
 }
 
 #about-div1 {

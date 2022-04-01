@@ -471,7 +471,7 @@ img {
 #about-div1 {
   background-color: #3c4053;
   transform: skew(0deg, -5deg);
-  margin: 1%;
+  margin-top: 2%;
 }
 
 #about-div2 {

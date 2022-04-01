@@ -1,57 +1,5 @@
 "use strict";
 
-// formSubmitButton.addEventListener("click", () => {
-//   document.querySelector(#form-submitted-number)=formCounter++;
-// });
-
-// let formSubmittedNumber;
-
-// window.onload = function getFormNumber() {
-//   let formSubmittedNumber = document.getElementById("form-submitted-number");
-//   return formSubmittedNumber;
-// };
-
-// function getFormNumber() {
-//   let formSubmittedNumber = document.querySelector("#form-submitted-number");
-//   // document.querySelector('#form-submitted-number').textContent = formSubmittedNumber++;
-//   // return formSubmittedNumber;
-// }
-
-// document.querySelector("#form-submitted-number").textContent =
-//   formSubmittedNumber++;
-
-// let formSubmittedNumber = 2;
-
-// function newFormSubmitted(formSubmittedNumber) {
-//   formSubmittedNumber = +document.getElementById("form-submitted-number");
-//   return formSubmittedNumber;
-// }
-// // document.getElementById("form-submitted-number").innerHTML =
-// //   formSubmittedNumber++;
-
-// console.log(
-//   newFormSubmitted(+document.getElementById("form-submitted-number"))
-// );
-
-// console.log(document.getElementById("form-submitted-number"));
-
-// window.onload = function () {
-//   let people = document.getElementById("#form-submitted-number");
-
-//   document.getElementById("form-submitted-number").innerHTML = people + "test";
-// };
-
-let formSubmittedNumber = 538;
-
-// var formSubmitButton = document.getElementById("submit-form");
-// formSubmittedNumber = document.getElementById("form-submitted-number");
-
-// console.log(formSubmittedNumber);
-
-// formSubmitButton.onclick = function updateFormSubmitted() {
-//   formSubmitButton.innerHTML = formSubmittedNumber++;
-//   return formSubmittedNumber;
-// };
 
 let clicks = 538;
 
@@ -186,41 +134,6 @@ buttons.forEach((button) => {
     delete activeSlide.dataset.active;
   });
 });
-
-// document.getElementById("submit-btn").addEventListener("click", function () {
-//   document.getElementById("hide-rsvp-p").classList.remove("hide");
-// });
-
-// const form = document.querySelector("#submit-btn");
-// const successMessage = document.querySelector("success_text");
-
-// form.addEventListener("submit", () => {
-//   e.preventDefault();
-//   successMessage.classList.add("show");
-//   setTimeout(() => form.submit(), 2000);
-// });
-
-// function message() {
-//   var formInput = document.getElementsByClassName("form-input");
-
-//   console.log(document.querySelector("#email_i").value);
-
-//   if (formInput.value === "") {
-//     console.log(false);
-//   } else {
-//     console.log(true);
-//     setTimeout(() => {
-//       name.value = "";
-//       lastname.value = "";
-//       email.value = "";
-//     }, 10000);
-//     document.getElementById("hide-rsvp-p").style.display = "block";
-//   }
-
-//   setTimeout(() => {
-//     document.getElementById("hide-rsvp-p").style.display = "none";
-//   }, 5000);
-// }
 
 function message1() {
   var firstNameInput = document.querySelector("#fname_i");

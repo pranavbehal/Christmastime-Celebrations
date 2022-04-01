@@ -149,18 +149,75 @@
     </div>
   </body>
 </html>
-<form>
-  <div class="input-group">
-    <input type="text" id="first name" required />
-    <label for="first name">First Name</label>
+<div class="hero">
+  <form>
+    <div class="input-group">
+      <input type="text" id="first name" required />
+      <label for="first name">First Name</label>
+    </div>
+    <div class="input-group">
+      <input type="text" id="last name" required />
+      <label for="last name">Last Name</label>
+    </div>
+    <div class="input-group">
+      <input type="text" id="email" required />
+      <label for="email">Email</label>
+    </div>
+    <button type="submit">SUBMIT</button>
+  </form>
+</div>
+
+<div class="container">
+  <h1 class="connect-h1">Connect With Us</h1>
+  <p>
+    Do you have any questions about our services or would like to speak to a
+    team member? <br />Feel free to get in touch with us.
+  </p>
+  <div class="contact-box">
+    <div class="contact-left">
+      <h3 class="request-h3">Send your request</h3>
+      <form>
+        <div class="input-row">
+          <div class="input-group">
+            <label>First Name</label>
+            <input type="text" placeholder="John" />
+          </div>
+          <div class="input-group">
+            <label>Last Name</label>
+            <input type="text" placeholder="Doe" />
+          </div>
+        </div>
+        <div class="input-row">
+          <div class="input-group">
+            <label>Email</label>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <label>Subject</label>
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+        <label>Message</label>
+        <textarea rows="5">Your message...</textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+    <div class="contact-right">
+      <h3>Reach Us</h3>
+      <table>
+        <tr>
+          <td>Email</td>
+          <td>contactus@example.com</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>(123)-456-7890</td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>1234 Christmastime Way, City, State, Zip Code</td>
+        </tr>
+      </table>
+    </div>
   </div>
-  <div class="input-group">
-    <input type="text" id="last name" required />
-    <label for="last name">Last Name</label>
-  </div>
-  <div class="input-group">
-    <input type="text" id="email" required />
-    <label for="email">Email</label>
-  </div>
-  <button type="submit">SUBMIT</button>
-</form>
+</div>

@@ -462,6 +462,7 @@ img {
   transform: skew(0deg, 5deg);
   position: relative;
   z-index: 4;
+  margin-top: 50px;
 }
 
 #half-vector-div2 {
@@ -473,6 +474,7 @@ img {
 #about-div1 {
   background-color: #3c4053;
   transform: skew(0deg, -5deg);
+  margin-top: 75px;
 }
 
 #about-div2 {

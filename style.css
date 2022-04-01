@@ -111,6 +111,10 @@ p {
   #home-header-div {
     background-image: url("pexels-dana-tentis-364668.jpg");
   }
+
+  .page-header{
+    font-size: 30px;
+  }
 }
 
 #zoom-div {
@@ -317,7 +321,6 @@ p {
   border: none;
   text-align: left;
   outline: none;
-  font-size: 1vw;
   transition: 0.4s;
   font-family: Kano;
   margin: 1% 0%;
@@ -422,12 +425,21 @@ img {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   .prev,
   .next,
   .text {
     font-size: 11px;
   }
+
+  .accordion{
+    font-size: 15px;;
+  }
+
+  .faq-header{
+    font-size: 30px;
+  }
+
 }
 
 .half-vector-container {
@@ -511,4 +523,40 @@ img {
 #about-description {
   color: white;
   text-align: left;
+}
+
+.mobile-about-section{
+  display: none;
+}
+
+@media screen and (max-width: 500px){
+  .mobile-about-section{
+    display: block;
+  }
+
+  .desk-about-section{
+    display: none;
+  }
+
+  .about-div-p{
+    padding: 2%;
+    margin-bottom: 0px;
+  }
+
+  #description-header{
+    font-size: 25px;
+  }
+
+  #about-header-description{
+    width: 60%;
+    left: 40%;
+  }
+
+  #about-div1{
+    padding: 16px;
+  }
+
+  #about-div2{
+    padding: 16px;
+  }
 }

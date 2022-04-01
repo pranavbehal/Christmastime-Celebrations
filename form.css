@@ -131,4 +131,8 @@ textarea:valid ~ label {
     left: 50%;
     transform: translate(-50%, -50%)
   }
+
+  #form-header{
+    font-size: 30px;
+  }
 }

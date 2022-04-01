@@ -459,12 +459,10 @@ img {
 }
 
 #half-vector-div1 {
-  transform: skew(0deg, 5deg);
   position: relative;
 }
 
 #half-vector-div2 {
-  transform: skew(0deg, -5deg);
   position: relative;
 }
 

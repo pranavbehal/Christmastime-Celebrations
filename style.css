@@ -471,12 +471,13 @@ img {
 #about-div1 {
   background-color: #3c4053;
   transform: skew(0deg, -5deg);
-  margin-top: 5%;
+  margin: 0px;
 }
 
 #about-div2 {
   background-color: #ff5846;
   transform: skew(0deg, 5deg);
+  margin: 5%;
 }
 
 .about-div-p {

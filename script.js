@@ -1,6 +1,5 @@
 "use strict";
 
-
 let clicks = 538;
 
 function onClick() {
@@ -135,7 +134,7 @@ buttons.forEach((button) => {
   });
 });
 
-function message1() {
+function message() {
   var firstNameInput = document.querySelector("#fname_i");
   var lastNameInput = document.querySelector("#lname_i");
   var emailInput = document.querySelector("#email_i");
@@ -148,11 +147,39 @@ function message1() {
   } else {
     console.log(true);
     setTimeout(() => {
-      name.value = "";
-      lastname.value = "";
-      email.value = "";
-    }, 10000);
+      firstNameInput.value = "";
+      lastNameInput.value = "";
+      emailInput.value = "";
+    }, 1);
     document.getElementById("hide-rsvp-p2").style.display = "none";
     document.getElementById("hide-rsvp-p").style.display = "block";
+  }
+}
+
+function contactMessage() {
+  var firstNameInputC = document.querySelector("#cfname");
+  var lastNameInputC = document.querySelector("#clname");
+  var emailInputC = document.querySelector("#cemail");
+  var subjectInputC = document.querySelector("#csubject");
+  var messageInputC = document.querySelector("#cmessage");
+  if (
+    firstNameInputC.value === "" ||
+    lastNameInputC.value === "" ||
+    emailInputC.value === "" ||
+    subjectInputC.value === "" ||
+    messageInputC.value === ""
+  ) {
+    document.getElementById("hide-contact-p2").style.display = "block";
+  } else {
+    console.log(true);
+    setTimeout(() => {
+      firstNameInputC.value = "";
+      lastNameInputC.value = "";
+      emailInputC.value = "";
+      subjectInputC.value = "";
+      messageInputC.value = "";
+    }, 1);
+    document.getElementById("hide-contact-p2").style.display = "none";
+    document.getElementById("hide-contact-p").style.display = "block";
   }
 }

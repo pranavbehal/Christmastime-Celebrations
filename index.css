@@ -233,3 +233,11 @@ tr td:first-child {
 tr td {
   padding-top: 20px;
 }
+
+#hide-contact-p {
+  display: none;
+}
+
+#hide-contact-p2 {
+  display: none;
+}

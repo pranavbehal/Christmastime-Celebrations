@@ -151,8 +151,13 @@ function message() {
       lastNameInput.value = "";
       emailInput.value = "";
     }, 1);
-    document.getElementById("hide-rsvp-p2").style.display = "none";
-    document.getElementById("hide-rsvp-p").style.display = "block";
+    document.getElementById("hide-rsvp-p2").innerHTML =
+      "Success! We'll send you an email when tickets are available to order online.";
+    setTimeout(() => {
+      document.getElementById("hide-rsvp-p2").style.display = "none";
+      document.getElementById("hide-rsvp-p2").innerHTML =
+        "Please fill out all of the fields!";
+    }, 5000);
   }
 }
 

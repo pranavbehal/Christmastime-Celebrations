@@ -179,7 +179,12 @@ function contactMessage() {
       subjectInputC.value = "";
       messageInputC.value = "";
     }, 1);
-    document.getElementById("hide-contact-p2").style.display = "none";
-    document.getElementById("hide-contact-p").style.display = "block";
+    document.getElementById("hide-contact-p2").innerHTML =
+      "Your message has been sent";
+    setTimeout(() => {
+      document.getElementById("hide-contact-p2").style.display = "none";
+      document.getElementById("hide-contact-p2").innerHTML =
+        "Please fill out all of the fields!";
+    }, 5000);
   }
 }

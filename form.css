@@ -5,6 +5,7 @@ body {
   background-blend-mode: multiply;
   background-color: rgba(0, 0, 0, 0.1);
   height: 100vh;
+  font-family: Montserrat;
 }
 
 #form-bg {

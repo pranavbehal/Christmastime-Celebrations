@@ -226,7 +226,8 @@ label {
 }
 
 tr td:first-child {
-  padding-right: 20px;
+  padding-right: 15px;
+  margin-left: 30px;
 }
 
 tr td {

@@ -185,7 +185,7 @@ function contactMessage() {
       messageInputC.value = "";
     }, 1);
     document.getElementById("hide-contact-p2").innerHTML =
-      "Your message has been sent";
+      "Your message has been sent.";
     setTimeout(() => {
       document.getElementById("hide-contact-p2").style.display = "none";
       document.getElementById("hide-contact-p2").innerHTML =

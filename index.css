@@ -159,7 +159,7 @@ p {
 .contact-right {
   flex-basis: 40%;
   padding: 40px;
-  background: #1c00b5;
+  background: #bb3131;
   color: #fff;
 }
 
@@ -200,11 +200,11 @@ textarea {
 label {
   margin-bottom: 6px;
   display: block;
-  color: #1c00b5;
+  color: #bb3131;
 }
 
 .contact-btn {
-  background: #1c00b5;
+  background: #bb3131;
   width: 100px;
   outline: none;
   color: #fff;
@@ -215,7 +215,7 @@ label {
 }
 
 .contact-left h3 {
-  color: #1c00b5;
+  color: #bb3131;
   font-weight: 600;
   margin-bottom: 30px;
 }

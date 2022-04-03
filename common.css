@@ -42,7 +42,7 @@
     font-family: Lovelo;
 }
 
-ul {
+.nav-ul {
     list-style-type: none;
     margin: 0%;
     padding: 0px;
@@ -52,7 +52,7 @@ ul {
     flex-grow: 1;
 }
 
-li {
+nav li {
     float:left;
 }
 

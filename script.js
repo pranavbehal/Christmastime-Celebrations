@@ -193,3 +193,14 @@ function contactMessage() {
     }, 5000);
   }
 }
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll > 300) {
+      $(".homenav").css("background", "redhomenav");
+    } else {
+      $(".homenav").css("background", "none");
+    }
+  });
+});

@@ -232,10 +232,10 @@ document.addEventListener("scroll", function () {
 document.addEventListener("scroll", function () {
   var scroll = body.scrollTop;
   if (scroll > 300) {
-    console.log(1);
-    console.log(2);
+    document.getElementById("nav").classList.remove("homenav");
+    document.getElementById("nav").classList.add("redhomenav");
   } else {
-    console.log(3);
-    console.log(4);
+    document.getElementById("nav").classList.add("homenav");
+    document.getElementById("nav").classList.remove("redhomenav");
   }
 });

@@ -25,7 +25,7 @@
       <div id="text-logo-div">
         <h2 id="text-logo">CHRISTMASTIME CELEBRATIONS</h2>
       </div>
-      <ul id="computer-nav">
+      <ul class="nav-ul" id="computer-nav">
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="events.html">EVENT INFO</a></li>
@@ -36,7 +36,7 @@
     <div id="event-header-div">
       <h1 id="event-header">Events:</h1>
       <p id="event-header-description">Here, we include a brief introduction to all of our events, packages for them. If you would like you can also buy them in advance with the form at the end. </p>
-      <button id="event-header-btn"><a>Buy Now</a></button>
+      <a href="#gradient-hr"><button id="event-header-btn">Buy Now</button></a>
     </div> 
     <section>
       <p class="event-time">Our Morning Events</p>
@@ -96,6 +96,7 @@
           </p>
         </div>
       </div>
+
       <p class="event-time">Special Events</p>
       <div class="special-event-container">
         <div class="special-event-div1">
@@ -116,7 +117,40 @@
           </p>
         </div>
       </div>
-      <hr>
+      <hr id="gradient-hr">
+    </section>
+    <section>
+      <h2>Packages</h2>
+      <div id="norm-pckg-container">
+        <div class="norm-pckg-div">
+          <p class="norm-pckg-header">Morning Package</p>
+          <ul class="events-included">
+            <li>Cooking Class</li>
+            <li>Shopping Guide</li>
+            <li>Party Prep</li>
+          </ul>
+        </div>
+
+        <div class="norm-pckg-div">
+          <p class="norm-pckg-header">Special Bundle</p>
+          <ul class="events-included">
+            <li>History of Christmas</li>
+            <li>Trivia & Games</li>
+          </ul>
+          <hr class="package-hr">
+          <button class="buy-now-btn">Buy</button>
+          <p class="price">$4</p>
+        </div>
+
+        <div class="norm-pckg-div">
+          <p class="norm-pckg-header">Afternoon Package</p>
+          <ul class="events-included">
+            <li>History of Christmas</li>
+            <li>Trivia & Games</li>
+            <li>Closing Cermony</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>

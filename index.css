@@ -79,15 +79,15 @@ p {
   transform: translate(-50%, -50%);
 }
 
-#quote-div{
+#quote-div {
   background-color: #213d64;
- padding: 2%;
+  padding: 2%;
   margin: 3% 10%;
   box-shadow: 20px 15px 5px #283042;
   border-radius: 5px;
 }
 
-#quote{
+#quote {
   color: white;
   font-size: 2.5vw;
 }
@@ -136,4 +136,108 @@ p {
   #down-arrow {
     display: none;
   }
+}
+
+/* Contact Form */
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+  font-family: Montserrat;
+}
+
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #bb3131;
+  color: #fff;
+}
+
+.connect-h1 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 10px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: #bb3131;
+}
+
+.contact-btn {
+  background: #bb3131;
+  width: 100px;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, alpha) 0.3;
+}
+
+.contact-left h3 {
+  color: #bb3131;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-right h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.follow-h3 {
+  margin-top: 30px;
+}
+
+tr td:first-child {
+  padding-right: 15px;
+  margin-left: 30px;
+}
+
+tr td {
+  padding-top: 20px;
+}
+
+#hide-contact-p2 {
+  display: none;
 }

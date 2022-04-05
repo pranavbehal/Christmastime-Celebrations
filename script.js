@@ -197,9 +197,11 @@ function contactMessage() {
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll > 300) {
+    if (scroll > 1) {
       $(".homenav").css("background", "redhomenav");
-    } else {
+    } 
+    
+    else {
       $(".homenav").css("background", "none");
     }
   });

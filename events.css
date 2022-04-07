@@ -60,7 +60,7 @@ html{
 }
 
 #event-header-div{
-  background-image:url(valiant-made-UrzN-8K1PCE-unsplash.jpg);
+  background-image:url(pexels-nicole-michalou-5778894.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   padding: 2% 10%;
@@ -135,28 +135,35 @@ html{
 
 #norm-pckg-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .norm-pckg-div{
-  width: 30%;
-  background-color: green;
+  width: 25%;
+  background-color: #5cb868;
+}
+
+.special-pckg-div{
+  width: 25%;
+  background-color: #ff655d;
+  box-shadow: 0px 0px 20px red;
 }
 
 .norm-pckg-header{
   color: white;
   text-align: left;
-  margin: 5%;
+  margin: 25px;
   font-size: 2vw;
 }
 
 .events-included{
   color: white;
+  margin-left: 0px;
 }
 
 .events-included li{
   font-size: 1.5vw;
-  margin: 5% 8%;
+  margin: 15px 8%;
 }
 
 .price{
@@ -172,6 +179,15 @@ html{
   width: 90%;
 }
 
+.buy-btn{
+  border: none;
+  color: #1a2f4d;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5% 10%;
+}
+
 
 
 
@@ -180,18 +196,6 @@ html{
 /* MEDIA FOR SMALL SCREEN */
 
 @media only screen and (max-width: 480px) {
-  body {
-    align-items: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Open Sans", sans;
-    justify-content: center;
-    text-align: center;
-    perspective: 1800px;
-  }
-
   h1 {
     color: #3e3e42;
     font-size: 32px;
@@ -256,9 +260,13 @@ html{
     margin-bottom: 2vw;
   }
 
-  #event-header-btn{
-    margin: 5%;
-    padding: 5%;
-    margin-right: 50%;
+
+  .events-included{
+    padding-left: 5px;
+  }
+
+  .norm-pckg-header{
+    margin: 10px;
+
   }
 }

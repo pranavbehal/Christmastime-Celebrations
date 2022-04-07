@@ -194,7 +194,6 @@ function contactMessage() {
   }
 }
 
-<<<<<<< HEAD
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -206,7 +205,6 @@ $(document).ready(function () {
       $(".homenav").css("background", "none");
     }
   });
-=======
 // $(document).ready(function () {
 //   $(window).scroll(function () {
 //     var scroll = $(window).scrollTop();
@@ -251,5 +249,4 @@ document.addEventListener("scroll", function () {
     document.getElementById("nav").classList.add("homenav");
     document.getElementById("nav").classList.remove("redhomenav");
   }
->>>>>>> f2596b2962b840106719f3200b6c8d93b525acaf
 });

@@ -16,7 +16,6 @@
 
 #nav {
   display: flex;
-  position: fixed;
   align-items: center;
   text-align: center;
   width: 100%;
@@ -176,7 +175,7 @@ p {
   display: none;
 }
 
-.connect-h1 {
+.connect-header {
   margin-bottom: 10px;
 }
 

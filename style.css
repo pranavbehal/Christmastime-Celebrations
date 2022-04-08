@@ -450,6 +450,9 @@ p {
 .about-section {
   margin: 0px;
 }
+.framework-affirm {
+  background-color: #1a2f4d;
+}
 
 #about-header {
   background-image: url(annie-spratt-QckxruozjRg-unsplash.jpg);

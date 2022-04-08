@@ -194,13 +194,48 @@ function contactMessage() {
   }
 }
 
-$(document).ready(function () {
-  $(window).scroll(function () {
-    var scroll = $(window).scrollTop();
-    if (scroll > 1) {
-      $(".homenav").css("background", "redhomenav");
-    } else {
-      $(".homenav").css("background", "none");
-    }
-  });
+// $(document).ready(function () {
+//   $(window).scroll(function () {
+//     var scroll = $(window).scrollTop();
+//     if (scroll > 300) {
+//       $(".homenav").css("background", "redhomenav");
+//     } else {
+//       $(".homenav").css("background", "none");
+//     }
+//   });
+// });
+
+// $(document).ready(function () {
+//   $(window).scroll(function () {
+//     var scroll = $(window).scrollTop();
+//     if (scroll > 300) {
+//       document.getElementById("nav").classList.remove("homenav");
+//       document.getElementById("nav").classList.add("redhomenav");
+//     } else {
+//       document.getElementById("nav").classList.add("homenav");
+//       document.getElementById("nav").classList.remove("redhomenav");
+//     }
+//   });
+// });
+
+document.addEventListener("scroll", function () {
+  var scroll = body.scrollTop;
+  if (scroll > 300) {
+    document.getElementById("nav").classList.remove("homenav");
+    document.getElementById("nav").classList.add("redhomenav");
+  } else {
+    document.getElementById("nav").classList.add("homenav");
+    document.getElementById("nav").classList.remove("redhomenav");
+  }
+});
+
+document.addEventListener("scroll", function () {
+  var scroll = body.scrollTop;
+  if (scroll > 300) {
+    document.getElementById("nav").classList.remove("homenav");
+    document.getElementById("nav").classList.add("redhomenav");
+  } else {
+    document.getElementById("nav").classList.add("homenav");
+    document.getElementById("nav").classList.remove("redhomenav");
+  }
 });

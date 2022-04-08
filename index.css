@@ -164,6 +164,10 @@ p {
   color: #fff;
 }
 
+.contact-right-mobile{
+  display: none;
+}
+
 .connect-h1 {
   margin-bottom: 10px;
 }
@@ -241,4 +245,19 @@ tr td {
 
 #hide-contact-p2 {
   display: none;
+}
+
+
+@media screen and (max-width: 500px){
+  .contact-right-mobile{
+    display: block;
+    padding: 40px;
+    background: #bb3131;
+    color: #fff;
+    margin: 10%;
+  }
+
+  .contact-right{
+    display: none;
+  }
 }

@@ -83,10 +83,11 @@ p {
   font-size: 10vw;
   font-family: Lovelo;
   margin: 0px;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  width: 10vw;
+  position: absolute !important;
+  top: 85% !important;
+  left: 50% !important;
+  width: 10vw !important;
+  height: 11vw !important;
   transform: translate(-50%, -50%);
 }
 

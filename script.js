@@ -167,6 +167,7 @@ function contactMessage() {
   var emailInputC = document.querySelector("#cemail");
   var subjectInputC = document.querySelector("#csubject");
   var messageInputC = document.querySelector("#cmessage");
+  var submitButtonC = document.querySelector("#contact-submit-button");
   if (
     firstNameInputC.value === "" ||
     lastNameInputC.value === "" ||
@@ -176,66 +177,20 @@ function contactMessage() {
   ) {
     document.getElementById("hide-contact-p2").style.display = "block";
   } else {
-    console.log(true);
-    setTimeout(() => {
-      firstNameInputC.value = "";
-      lastNameInputC.value = "";
-      emailInputC.value = "";
-      subjectInputC.value = "";
-      messageInputC.value = "";
-    }, 1);
+    firstNameInputC.value = "";
+    lastNameInputC.value = "";
+    emailInputC.value = "";
+    subjectInputC.value = "";
+    messageInputC.value = "";
     document.getElementById("hide-contact-p2").innerHTML =
       "Your message has been sent.";
+    document.getElementById("hide-contact-p2").style.display = "block";
+    submitButtonC.style.display = "none";
     setTimeout(() => {
       document.getElementById("hide-contact-p2").style.display = "none";
       document.getElementById("hide-contact-p2").innerHTML =
         "Please fill out all of the fields!";
+      submitButtonC.style.display = "block";
     }, 5000);
   }
 }
-
-// $(document).ready(function () {
-//   $(window).scroll(function () {
-//     var scroll = $(window).scrollTop();
-//     if (scroll > 300) {
-//       $(".homenav").css("background", "redhomenav");
-//     } else {
-//       $(".homenav").css("background", "none");
-//     }
-//   });
-// });
-
-// $(document).ready(function () {
-//   $(window).scroll(function () {
-//     var scroll = $(window).scrollTop();
-//     if (scroll > 300) {
-//       document.getElementById("nav").classList.remove("homenav");
-//       document.getElementById("nav").classList.add("redhomenav");
-//     } else {
-//       document.getElementById("nav").classList.add("homenav");
-//       document.getElementById("nav").classList.remove("redhomenav");
-//     }
-//   });
-// });
-
-document.addEventListener("scroll", function () {
-  var scroll = body.scrollTop;
-  if (scroll > 300) {
-    document.getElementById("nav").classList.remove("homenav");
-    document.getElementById("nav").classList.add("redhomenav");
-  } else {
-    document.getElementById("nav").classList.add("homenav");
-    document.getElementById("nav").classList.remove("redhomenav");
-  }
-});
-
-document.addEventListener("scroll", function () {
-  var scroll = body.scrollTop;
-  if (scroll > 300) {
-    document.getElementById("nav").classList.remove("homenav");
-    document.getElementById("nav").classList.add("redhomenav");
-  } else {
-    document.getElementById("nav").classList.add("homenav");
-    document.getElementById("nav").classList.remove("redhomenav");
-  }
-});

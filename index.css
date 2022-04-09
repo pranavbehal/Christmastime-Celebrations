@@ -113,6 +113,8 @@ p {
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: Lovelo;
+    background-color: #e40010;
   }
 
   .menu-btn {
@@ -141,6 +143,15 @@ p {
 
   #down-arrow {
     display: none;
+  }
+
+  #home-header {
+    color: white;
+    font-size: 10vw;
+  }
+
+  .connect-header {
+    font-size: 33px;
   }
 }
 
@@ -237,6 +248,7 @@ label {
 
 .follow-h3 {
   margin-top: 30px;
+  font-family: Kano;
 }
 
 tr td:first-child {
@@ -246,6 +258,7 @@ tr td:first-child {
 
 tr td {
   padding-top: 20px;
+  font-family: Kano;
 }
 
 #hide-contact-p2 {
@@ -263,5 +276,14 @@ tr td {
 
   .contact-right {
     display: none;
+  }
+
+  tr td:first-child {
+    padding-right: 10px;
+    margin-left: 10px;
+  }
+
+  tr td {
+    padding-top: 15px;
   }
 }

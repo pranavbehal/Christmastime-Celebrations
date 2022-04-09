@@ -10,17 +10,32 @@
 
 /*Nav Bar*/
 
+
+.navbar-fixed-top.scrolled {
+  background-color: #FF5846 !important;
+  transition: background-color 200ms linear;
+}
+
+
 #mobile-nav {
   display: none;
 }
 
 #nav {
+  position: fixed;
   display: flex;
   align-items: center;
   text-align: center;
   width: 100%;
   padding: 16px 0px;
-  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  transition: background-color .5s ease;
+  z-index: 1000;
+}
+
+.scrolling-active{
+  background-color: #e40010;
+  background-blend-mode:  color;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2)
 }
 
 #text-logo-div {

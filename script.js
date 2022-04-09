@@ -218,7 +218,7 @@ function contactMessage() {
 //   });
 // });
 
-document.addEventListener("scroll", function () {
+/*document.addEventListener("scroll", function () {
   var scroll = body.scrollTop;
   if (scroll > 300) {
     document.getElementById("nav").classList.remove("homenav");
@@ -239,3 +239,9 @@ document.addEventListener("scroll", function () {
     document.getElementById("nav").classList.remove("redhomenav");
   }
 });
+*/
+
+if (document.body.scrollTop >= 28) {
+  document.getElementById("home-header").style.color = '#ff5846';
+
+}

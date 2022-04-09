@@ -27,7 +27,6 @@ a:visited {
 }
 
 #nav {
-  height: 7vh;
   display: flex;
   align-items: center;
   text-align: center;

@@ -469,12 +469,17 @@ p {
 }
 
 #about-header {
-  background-image: url(annie-spratt-QckxruozjRg-unsplash.jpg);
+  background-image: url(annie-spratt-QckxruozjRg-unsplash.jpg) no-repeat center;
   height: 90vh;
-  background-repeat: no-repeat;
   background-size: cover;
   z-index: 5;
   position: relative;
+}
+
+@media only screen and (max-width: 480px) {
+  #about-header {
+    height: ;
+  }
 }
 
 #about-header-description {

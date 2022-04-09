@@ -61,58 +61,7 @@ function contactMessage() {
     }, 5000);
   }
 }
-<<<<<<< HEAD
-
-// $(document).ready(function () {
-//   $(window).scroll(function () {
-//     var scroll = $(window).scrollTop();
-//     if (scroll > 300) {
-//       $(".homenav").css("background", "redhomenav");
-//     } else {
-//       $(".homenav").css("background", "none");
-//     }
-//   });
-// });
-
-// $(document).ready(function () {
-//   $(window).scroll(function () {
-//     var scroll = $(window).scrollTop();
-//     if (scroll > 300) {
-//       document.getElementById("nav").classList.remove("homenav");
-//       document.getElementById("nav").classList.add("redhomenav");
-//     } else {
-//       document.getElementById("nav").classList.add("homenav");
-//       document.getElementById("nav").classList.remove("redhomenav");
-//     }
-//   });
-// });
-
-/*document.addEventListener("scroll", function () {
-  var scroll = body.scrollTop;
-  if (scroll > 300) {
-    document.getElementById("nav").classList.remove("homenav");
-    document.getElementById("nav").classList.add("redhomenav");
-  } else {
-    document.getElementById("nav").classList.add("homenav");
-    document.getElementById("nav").classList.remove("redhomenav");
-  }
-});
-
-document.addEventListener("scroll", function () {
-  var scroll = body.scrollTop;
-  if (scroll > 300) {
-    document.getElementById("nav").classList.remove("homenav");
-    document.getElementById("nav").classList.add("redhomenav");
-  } else {
-    document.getElementById("nav").classList.add("homenav");
-    document.getElementById("nav").classList.remove("redhomenav");
-  }
-});
-*/
 
 if (document.body.scrollTop >= 28) {
-  document.getElementById("home-header").style.color = '#ff5846';
-
+  document.getElementById("home-header").style.color = "#ff5846";
 }
-=======
->>>>>>> fa6620bd60d9f1d627e0869d99f8d660bfbcb94e

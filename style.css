@@ -473,7 +473,6 @@ p {
   height: 90vh;
   background-size: cover;
   z-index: 5;
-  position: relative;
 }
 
 @media only screen and (max-width: 480px) {

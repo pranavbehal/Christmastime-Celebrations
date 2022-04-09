@@ -167,7 +167,6 @@
       </div>
     </div>
 
-        
     <div class="container">
       <h2 class="connect-header">Connect With Us</h2>
       <p>
@@ -191,7 +190,11 @@
             <div class="input-row">
               <div class="input-group">
                 <label>Email</label>
-                <input id="cemail" type="text" placeholder="johndoe@email.com" />
+                <input
+                  id="cemail"
+                  type="text"
+                  placeholder="johndoe@email.com"
+                />
               </div>
               <div class="input-group">
                 <label>Subject</label>
@@ -208,7 +211,12 @@
               id="cmessage"
               placeholder="Your message..."
             ></textarea>
-            <button class="contact-btn" type="button" onclick="contactMessage()">
+            <button
+              class="contact-btn"
+              id="contact-submit-button"
+              type="button"
+              onclick="contactMessage()"
+            >
               Send
             </button>
             <p id="hide-contact-p2">Please fill out all of the fields!</p>
@@ -283,5 +291,3 @@
     </div>
   </body>
 </html>
-
-

@@ -452,6 +452,19 @@ p {
 }
 .framework-affirm {
   background-color: #1a2f4d;
+  height: 25vw;
+  margin-top: -4vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#framework-affirm-p {
+  color: white;
+  size: 2vw;
+}
+
+#framework-affirm-header {
+  padding-top: 6vw;
 }
 
 #about-header {

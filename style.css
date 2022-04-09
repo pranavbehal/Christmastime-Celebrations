@@ -502,6 +502,17 @@ p {
   display: none;
 }
 
+.resources-main-websites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-websites {
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
 @media screen and (max-width: 500px) {
   .mobile-about-section {
     display: block;

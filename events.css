@@ -141,6 +141,8 @@ html {
 .norm-pckg-div {
   width: 25%;
   background-color: #5cb868;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .special-pckg-div {
@@ -151,7 +153,7 @@ html {
 
 .norm-pckg-header {
   color: white;
-  text-align: left;
+  text-align: center;
   margin: 25px;
   font-size: 2vw;
 }
@@ -169,7 +171,7 @@ html {
 .price {
   color: white;
   font-size: 1.8vw;
-  text-align: right;
+  text-align: center;
   margin-right: 10%;
   font-weight: bold;
 }
@@ -179,8 +181,8 @@ html {
   width: 90%;
 }
 
-.mega-bundle-description-div{
-  background-image: url("josh-appel-NeTPASr-bmQ-unsplash.jpg");
+.mega-bundle-description-div {
+  background-image: url("Ornaments.jpg");
   padding: 2%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -190,36 +192,36 @@ html {
   border-radius: 10px;
 }
 
-.mega-bundle-header{
+.mega-bundle-header {
   color: white;
 }
 
-.events-included-mega{
+.events-included-mega {
   display: inline-block;
   color: white;
 }
 
-.events-included-mega li{
+.events-included-mega li {
   font-size: 2vw;
   margin: 15px 8%;
 }
 
-.events-included-mega-div{
+.events-included-mega-div {
   display: flex;
   justify-content: space-evenly;
   padding: 2%;
 }
 
-.mega-bundle-ul{
+.mega-bundle-ul {
   width: 28%;
   list-style-type: none;
 }
 
-.mega-bundle-description{
+.mega-bundle-description {
   color: white;
   font-size: 2vw;
   margin: 2%;
-  text-align: left;
+  text-align: center;
 }
 
 /* MEDIA FOR SMALL SCREEN */

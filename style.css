@@ -40,6 +40,12 @@ p {
   text-align: center;
 }
 
+img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
 .page-header {
   font-family: Kano;
   font-size: 3vw;

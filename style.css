@@ -394,6 +394,15 @@ p {
   .faq-header {
     font-size: 30px;
   }
+
+  #home-header-div {
+    background-attachment: scroll;
+  }
+
+  #form-div {
+    background-attachment: scroll;
+  }
+
 }
 
 .half-vector-container {
@@ -469,7 +478,9 @@ p {
 }
 
 #about-header {
-  background-image: url(annie-spratt-QckxruozjRg-unsplash.jpg) no-repeat center;
+  background-image: url(annie-spratt-QckxruozjRg-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 90vh;
   z-index: 5;
 }
@@ -519,6 +530,8 @@ p {
   .desk-about-section {
     display: none;
   }
+
+
 
   .about-div-p {
     padding: 2%;

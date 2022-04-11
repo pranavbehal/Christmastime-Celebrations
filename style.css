@@ -317,6 +317,10 @@ img {
   margin: 5%;
 }
 
+.link-new-line {
+  word-wrap: break-word;
+}
+
 /* Accordian */
 
 .question {
@@ -408,7 +412,6 @@ img {
   #form-div {
     background-attachment: scroll;
   }
-
 }
 
 .half-vector-container {
@@ -446,7 +449,7 @@ img {
   position: relative;
 }
 
-.other-events-mobile{
+.other-events-mobile {
   display: none;
 }
 
@@ -541,19 +544,19 @@ img {
     display: none;
   }
 
-  .credits-h2{
+  .credits-h2 {
     font-size: 20px;
   }
 
-  .other-events-mobile{
+  .other-events-mobile {
     display: block;
   }
 
-  .half-vector-container{
+  .half-vector-container {
     display: none;
   }
-  
-  section{
+
+  section {
     padding: 5%;
   }
 

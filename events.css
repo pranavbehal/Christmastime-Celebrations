@@ -300,6 +300,25 @@ html {
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .events-included li {
+    font-size: 10px;
+  }
+
+  .norm-pckg-header {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 12px;
+  }
+
+  .norm-pckg-header {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
 .special-event-container {
   perspective: 2500px;
   display: flex;
@@ -380,13 +399,4 @@ html {
 .package-hr {
   color: white;
   width: 90%;
-}
-
-.buy-btn {
-  border: none;
-  color: #1a2f4d;
-  background-color: white;
-  border-radius: 5px;
-  padding: 8px;
-  margin: 5% 10%;
 }

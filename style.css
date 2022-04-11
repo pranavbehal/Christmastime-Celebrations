@@ -530,6 +530,13 @@ img {
   justify-content: center;
 }
 
+.mobile-resources-main-websites {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
 .main-websites {
   margin-right: 2vw;
   margin-left: 2vw;
@@ -537,6 +544,20 @@ img {
 
 @media screen and (max-width: 500px) {
   .mobile-about-section {
+    display: block;
+  }
+
+  .resources-main-websites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .mobile-resources-main-websites {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     display: block;
   }
 

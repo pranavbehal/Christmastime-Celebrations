@@ -446,6 +446,10 @@ img {
   position: relative;
 }
 
+.other-events-mobile{
+  display: none;
+}
+
 #about-div1 {
   background-color: whitesmoke;
 }
@@ -537,7 +541,21 @@ img {
     display: none;
   }
 
+  .credits-h2{
+    font-size: 20px;
+  }
 
+  .other-events-mobile{
+    display: block;
+  }
+
+  .half-vector-container{
+    display: none;
+  }
+  
+  section{
+    padding: 5%;
+  }
 
   .about-div-p {
     padding: 2%;

@@ -58,3 +58,22 @@ body {
 #hide-rsvp-p2 {
   display: none;
 }
+
+@media only screen and (max-width: 500px) {
+  #form-header {
+    font-size: 8vw;
+    margin-bottom: 5px;
+  }
+
+  #form {
+    height: 70%;
+    width: 80%;
+  }
+  .form-label {
+    font-size: 4vw;
+  }
+
+  .form-input {
+    width: 50%;
+  }
+}

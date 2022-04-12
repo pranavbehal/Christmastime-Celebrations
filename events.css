@@ -224,6 +224,16 @@ html {
   text-align: center;
 }
 
+.events-in-package {
+  color: white;
+  font-size: 16px;
+}
+
+.events-in-bundle {
+  color: white;
+  font-size: 16px;
+}
+
 /* MEDIA FOR SMALL SCREEN */
 
 @media only screen and (max-width: 500px) {
@@ -234,6 +244,16 @@ html {
     letter-spacing: -1px;
     margin-bottom: 30px;
     transform: translateZ(35px);
+  }
+
+  .events-in-package {
+    color: white;
+    font-size: 10px;
+  }
+
+  .events-in-bundle {
+    color: white;
+    font-size: 12px;
   }
 
   h3 {
@@ -294,28 +314,36 @@ html {
   .events-included {
     padding-left: 5px;
   }
-
-  .norm-pckg-header {
-    margin: 10px;
-  }
 }
 
 @media only screen and (max-width: 500px) {
-  .events-included li {
-    font-size: 10px;
-  }
-
   .norm-pckg-header {
     font-size: 15px;
   }
 
   .price {
-    font-size: 12px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
 
   .norm-pckg-header {
     text-align: center;
     font-size: 30px;
+  }
+  .mega-bundle-description {
+    font-size: 12px;
+  }
+
+  .norm-pckg-header {
+    color: white;
+    text-align: left;
+    margin: 25px 10px;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
   }
 }
 
@@ -376,6 +404,9 @@ html {
   text-align: left;
   margin: 25px 10px;
   font-size: 2vw;
+  justify-content: center;
+  display: flex;
+  text-align: center;
 }
 
 .events-included {
@@ -390,7 +421,7 @@ html {
 
 .price {
   color: white;
-  font-size: 1.8vw;
+  font-size: 18px;
   text-align: left;
   margin: 5% 10%;
   font-weight: bold;
